@@ -388,6 +388,7 @@ int FastExplorationManager::updateFrontierStruct(const Eigen::Vector3d& pos) {
   frontier_finder_->searchFrontiers();
 
   // jyf
+  /*
   visualization_msgs::Marker marker;
 
   vector<double> radius = frontier_finder_->getSampleCircles();
@@ -420,6 +421,7 @@ int FastExplorationManager::updateFrontierStruct(const Eigen::Vector3d& pos) {
     }
   }
  /////////////////////////////////////////////////////////////////
+ */
 
   double frontier_time = (ros::Time::now() - t1).toSec();
   t1 = ros::Time::now();
