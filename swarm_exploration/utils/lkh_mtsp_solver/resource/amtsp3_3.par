@@ -1,0 +1,6 @@
+SPECIAL
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+TRACE_LEVEL = 1
+SEED = 0
+RUNS = 1
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
