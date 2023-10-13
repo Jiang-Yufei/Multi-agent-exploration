@@ -12,6 +12,7 @@
 #include <exploration_manager/PairOpt.h>
 #include <exploration_manager/PairOptResponse.h>
 #include <bspline/Bspline.h>
+#include <sensor_msgs/PointCloud2.h>
 
 #include <algorithm>
 #include <iostream>
@@ -71,7 +72,8 @@ private:
   void optResMsgCallback(const exploration_manager::PairOptResponseConstPtr& msg);
   void swarmTrajCallback(const bspline::BsplineConstPtr& msg);
   void swarmTrajTimerCallback(const ros::TimerEvent& e);
-
+  void droneLocalComplexityCallback(const sensor_msgs::PointCloud2::ConstPtr& msg);
+  double cal_local_complexity(int cluster_num);
   /* planning utils */
   shared_ptr<FastPlannerManager> planner_manager_;
   shared_ptr<FastExplorationManager> expl_manager_;
@@ -89,8 +91,8 @@ private:
 
   // Swarm state
   ros::Publisher drone_state_pub_, opt_pub_, opt_res_pub_, swarm_traj_pub_, grid_tour_pub_,
-      hgrid_pub_;
-  ros::Subscriber drone_state_sub_, opt_sub_, opt_res_sub_, swarm_traj_sub_;
+      hgrid_pub_, cluster_cloud_pub, drone_local_complexity_pub_;
+  ros::Subscriber drone_state_sub_, opt_sub_, opt_res_sub_, swarm_traj_sub_, local_map_sub_;
   ros::Timer drone_state_timer_, opt_timer_, swarm_traj_timer_;
 };
 

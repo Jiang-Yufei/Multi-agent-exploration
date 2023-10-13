@@ -57,6 +57,10 @@ void FastExplorationFSM::init(ros::NodeHandle& nh) {
       nh.subscribe("/move_base_simple/goal", 1, &FastExplorationFSM::triggerCallback, this);
   odom_sub_ = nh.subscribe("/odom_world", 1, &FastExplorationFSM::odometryCallback, this);
 
+  cluster_cloud_pub = nh.advertise<sensor_msgs::PointCloud2>("cluster_cloud", 1);
+  local_map_sub_ = nh.subscribe("/sdf_map/occupancy_local", 1, &FastExplorationFSM::droneLocalComplexityCallback, this);
+  drone_local_complexity_pub_ = nh.advertise<std_msgs::Empty>("drone_local_complexity", 1);
+
   replan_pub_ = nh.advertise<std_msgs::Empty>("/planning/replan", 10);
   new_pub_ = nh.advertise<std_msgs::Empty>("/planning/new", 10);
   bspline_pub_ = nh.advertise<bspline::Bspline>("/planning/bspline", 10);

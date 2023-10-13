@@ -62,12 +62,14 @@ bool HGrid::updateBaseCoor() {
   return true;
 }
 
+// 输入边界点
 void HGrid::inputFrontiers(const vector<Eigen::Vector3d>& avgs) {
   // Input frontier to both levels
   grid1_->inputFrontiers(avgs);
   grid2_->inputFrontiers(avgs);
 }
 
+// 更新Grid
 void HGrid::updateGridData(const int& drone_id, vector<int>& grid_ids, bool reallocated,
     const vector<int>& last_grid_ids, vector<int>& first_ids, vector<int>& second_ids) {
 
@@ -274,6 +276,7 @@ void HGrid::fineToCoarseId(const int& fine, int& coarse) {
   coarse = grid1_->toAddress(cidx);
 }
 
+// 计算cost矩阵
 void HGrid::getCostMatrix(const vector<Eigen::Vector3d>& positions,
     const vector<Eigen::Vector3d>& velocities, const vector<vector<int>>& first_ids,
     const vector<vector<int>>& second_ids, const vector<int>& grid_ids, Eigen::MatrixXd& mat) {

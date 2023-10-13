@@ -88,8 +88,8 @@ public:
   shared_ptr<PerceptionUtils> percep_utils_;
 
   // jyf
-  vector<double> getSampleCircles();
-  vector<Vector3d> getFrontierCenters();
+  // vector<double> getSampleCircles();
+  // vector<Vector3d> getFrontierCenters();
 private:
   void splitLargeFrontiers(list<Frontier>& frontiers);
   bool splitHorizontally(const Frontier& frontier, list<Frontier>& splits);
@@ -144,7 +144,7 @@ private:
   unique_ptr<RayCaster> raycaster_;
 
   // jyf
-  double find_sample_Circles(Frontier& frontier);
+  // double find_sample_Circles(Frontier& frontier);
   
 };
 

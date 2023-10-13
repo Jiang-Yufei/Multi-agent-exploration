@@ -43,7 +43,7 @@ FastExplorationManager::~FastExplorationManager() {
 void FastExplorationManager::initialize(ros::NodeHandle& nh) {
 
   // jyf 
-  ros::Publisher marker_pub = nh.advertise<visualization_msgs::Marker>("Sample_sphere_marker", 10);
+  // ros::Publisher marker_pub = nh.advertise<visualization_msgs::Marker>("Sample_sphere_marker", 10);
   
   
 
@@ -388,6 +388,7 @@ int FastExplorationManager::updateFrontierStruct(const Eigen::Vector3d& pos) {
   frontier_finder_->searchFrontiers();
 
   // jyf
+  /*
   visualization_msgs::Marker marker;
 
   vector<double> radius = frontier_finder_->getSampleCircles();
@@ -420,6 +421,7 @@ int FastExplorationManager::updateFrontierStruct(const Eigen::Vector3d& pos) {
     }
   }
  /////////////////////////////////////////////////////////////////
+ */
 
   double frontier_time = (ros::Time::now() - t1).toSec();
   t1 = ros::Time::now();
@@ -537,6 +539,7 @@ void FastExplorationManager::shortenPath(vector<Vector3d>& path) {
   path = short_tour;
 }
 
+// 解CVRP问题，寻找全局路径
 void FastExplorationManager::findGlobalTour(const Vector3d& cur_pos, const Vector3d& cur_vel,
     const Vector3d cur_yaw, vector<int>& indices) {
   auto t1 = ros::Time::now();

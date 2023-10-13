@@ -31,7 +31,7 @@ public:
   ~FastExplorationManager();
 
   void initialize(ros::NodeHandle& nh);
-
+  void cal_local_complexity();
   int planExploreMotion(
       const Vector3d& pos, const Vector3d& vel, const Vector3d& acc, const Vector3d& yaw);
 

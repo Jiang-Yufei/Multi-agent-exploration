@@ -873,6 +873,7 @@ void FrontierFinder::findViewpoints(
   }
 }
 
+/*
 // jyf
 double FrontierFinder::find_sample_Circles(Frontier& frontier){
 
@@ -946,6 +947,7 @@ double FrontierFinder::find_sample_Circles(Frontier& frontier){
   return nearest_distance;
 }
 
+
 vector<double> FrontierFinder::getSampleCircles() {
   if (!sample_circles_.empty())
     return sample_circles_;
@@ -960,12 +962,12 @@ vector<Vector3d> FrontierFinder::getFrontierCenters(){
   }
   return vector<Vector3d>();
 }
+*/
 
 // Sample viewpoints around frontier's average position, check coverage to the frontier cells
 void FrontierFinder::sampleViewpoints(Frontier& frontier) {
   //ros::Time sampleStart_t1 = ros::Time::now();
-  double r = find_sample_Circles(frontier);
-  sample_circles_.push_back(r);
+  
   // Evaluate sample viewpoints on circles, find ones that cover most cells
   for (double rc = candidate_rmin_, dr = (candidate_rmax_ - candidate_rmin_) / candidate_rnum_;
        rc <= candidate_rmax_ + 1e-3; rc += dr)

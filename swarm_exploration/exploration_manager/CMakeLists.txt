@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   geometry_msgs
   quadrotor_msgs
+  sensor_msgs
   plan_env
   path_searching
   bspline
@@ -63,6 +64,7 @@ add_executable(exploration_node
   src/exploration_node.cpp 
   src/fast_exploration_fsm.cpp
   src/fast_exploration_manager.cpp
+  src/local_complexity.cpp
   )
 target_link_libraries(exploration_node 
   ${catkin_LIBRARIES}

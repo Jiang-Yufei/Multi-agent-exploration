@@ -1,13 +1,12 @@
-NAME : amtsp.-199474.tour
-COMMENT : Length = -199474
-COMMENT : Found by LKH [Keld Helsgaun] Fri Aug 18 17:16:32 2023
+NAME : amtsp.-99599.tour
+COMMENT : Length = -99599
+COMMENT : Found by LKH [Keld Helsgaun] Fri Oct 13 14:43:37 2023
 TYPE : TOUR
-DIMENSION : 5
+DIMENSION : 4
 TOUR_SECTION
 1
 2
-4
 3
-5
+4
 -1
 EOF
