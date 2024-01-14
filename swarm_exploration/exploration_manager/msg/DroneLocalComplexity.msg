@@ -1,0 +1,3 @@
+int32 drone_id
+
+float32 local_complexity

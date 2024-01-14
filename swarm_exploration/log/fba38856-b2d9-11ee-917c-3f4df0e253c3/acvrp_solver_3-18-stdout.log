@@ -1,0 +1,3286 @@
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 39
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.1
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 40
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 39
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197698.1, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.8, Cand.max = 5
+Edges.fixed = 20 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197698, Time = 0.00 sec. 
+Population:
+  1: 0_-197698
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197698, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197698, Cost.avg = -197698.00, Cost.max = -197698
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 40, Trials.avg = 40.0, Trials.max = 40
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.01 sec.
+  Size.min = 8, Size.max = 10, Penalty = 0
+  Cost.min = -100215, Cost.max = -97483, Cost.sum = -197698
+Best ACVRP solution:
+  Cost = 0_-197698
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 39
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.1
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 40
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 39
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197698.1, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.8, Cand.max = 5
+Edges.fixed = 20 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197698, Time = 0.00 sec. 
+Population:
+  1: 0_-197698
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197698, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197698, Cost.avg = -197698.00, Cost.max = -197698
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 40, Trials.avg = 40.0, Trials.max = 40
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 8, Size.max = 10, Penalty = 0
+  Cost.min = -100215, Cost.max = -97483, Cost.sum = -197698
+Best ACVRP solution:
+  Cost = 0_-197698
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197485.1, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197381, Time = 0.00 sec. 
+* 27: Cost = 0_-197407, Time = 0.00 sec. 
+Population:
+  1: 0_-197407
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197407, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197407, Cost.avg = -197407.00, Cost.max = -197407
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98750, Cost.max = -98657, Cost.sum = -197407
+Best ACVRP solution:
+  Cost = 0_-197407
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197485.1, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197381, Time = 0.00 sec. 
+* 27: Cost = 0_-197407, Time = 0.00 sec. 
+Population:
+  1: 0_-197407
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197407, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197407, Cost.avg = -197407.00, Cost.max = -197407
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98750, Cost.max = -98657, Cost.sum = -197407
+Best ACVRP solution:
+  Cost = 0_-197407
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197484.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197381, Time = 0.00 sec. 
+* 4: Cost = 0_-197407, Time = 0.00 sec. 
+Population:
+  1: 0_-197407
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197407, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197407, Cost.avg = -197407.00, Cost.max = -197407
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98750, Cost.max = -98657, Cost.sum = -197407
+Best ACVRP solution:
+  Cost = 0_-197407
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197471.1, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197187, Time = 0.00 sec. 
+* 4: Cost = 0_-197387, Time = 0.00 sec. 
+* 6: Cost = 0_-197395, Time = 0.00 sec. 
+Population:
+  1: 0_-197395
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197395, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197395, Cost.avg = -197395.00, Cost.max = -197395
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98920, Cost.max = -98475, Cost.sum = -197395
+Best ACVRP solution:
+  Cost = 0_-197395
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197471.1, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197301, Time = 0.00 sec. 
+* 4: Cost = 0_-197387, Time = 0.00 sec. 
+* 8: Cost = 0_-197395, Time = 0.00 sec. 
+Population:
+  1: 0_-197395
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197395, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197395, Cost.avg = -197395.00, Cost.max = -197395
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98920, Cost.max = -98475, Cost.sum = -197395
+Best ACVRP solution:
+  Cost = 0_-197395
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197471.1, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197301, Time = 0.00 sec. 
+* 4: Cost = 0_-197387, Time = 0.00 sec. 
+* 8: Cost = 0_-197395, Time = 0.00 sec. 
+Population:
+  1: 0_-197395
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197395, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197395, Cost.avg = -197395.00, Cost.max = -197395
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98920, Cost.max = -98475, Cost.sum = -197395
+Best ACVRP solution:
+  Cost = 0_-197395
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197471.1, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197301, Time = 0.00 sec. 
+* 4: Cost = 0_-197387, Time = 0.00 sec. 
+* 8: Cost = 0_-197395, Time = 0.00 sec. 
+Population:
+  1: 0_-197395
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197395, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197395, Cost.avg = -197395.00, Cost.max = -197395
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98920, Cost.max = -98475, Cost.sum = -197395
+Best ACVRP solution:
+  Cost = 0_-197395
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197471.1, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197301, Time = 0.00 sec. 
+* 4: Cost = 0_-197387, Time = 0.00 sec. 
+* 8: Cost = 0_-197395, Time = 0.00 sec. 
+Population:
+  1: 0_-197395
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197395, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197395, Cost.avg = -197395.00, Cost.max = -197395
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98920, Cost.max = -98475, Cost.sum = -197395
+Best ACVRP solution:
+  Cost = 0_-197395
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197472.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197042, Time = 0.00 sec. 
+* 2: Cost = 0_-197348, Time = 0.00 sec. 
+* 3: Cost = 0_-197395, Time = 0.00 sec. 
+Population:
+  1: 0_-197395
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197395, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197395, Cost.avg = -197395.00, Cost.max = -197395
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.01 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98920, Cost.max = -98475, Cost.sum = -197395
+Best ACVRP solution:
+  Cost = 0_-197395
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197473.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197043, Time = 0.00 sec. 
+* 2: Cost = 0_-197349, Time = 0.00 sec. 
+* 3: Cost = 0_-197396, Time = 0.00 sec. 
+Population:
+  1: 0_-197396
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197396, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197396, Cost.avg = -197396.00, Cost.max = -197396
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.01 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98921, Cost.max = -98475, Cost.sum = -197396
+Best ACVRP solution:
+  Cost = 0_-197396
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235987
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197472.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197388, Time = 0.00 sec. 
+* 12: Cost = 0_-197396, Time = 0.00 sec. 
+Population:
+  1: 0_-197396
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197396, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197396, Cost.avg = -197396.00, Cost.max = -197396
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.01 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98921, Cost.max = -98475, Cost.sum = -197396
+Best ACVRP solution:
+  Cost = 0_-197396
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197458.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197331, Time = 0.00 sec. 
+* 2: Cost = 0_-197369, Time = 0.00 sec. 
+Population:
+  1: 0_-197369
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197369, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197369, Cost.avg = -197369.00, Cost.max = -197369
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98920, Cost.max = -98449, Cost.sum = -197369
+Best ACVRP solution:
+  Cost = 0_-197369
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197459.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197370, Time = 0.00 sec. 
+Population:
+  1: 0_-197370
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197370, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197370, Cost.avg = -197370.00, Cost.max = -197370
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.01 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98921, Cost.max = -98449, Cost.sum = -197370
+Best ACVRP solution:
+  Cost = 0_-197370
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197459.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197370, Time = 0.00 sec. 
+Population:
+  1: 0_-197370
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197370, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197370, Cost.avg = -197370.00, Cost.max = -197370
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.01 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98921, Cost.max = -98449, Cost.sum = -197370
+Best ACVRP solution:
+  Cost = 0_-197370
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197459.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197370, Time = 0.00 sec. 
+Population:
+  1: 0_-197370
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197370, Time = 0.01 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197370, Cost.avg = -197370.00, Cost.max = -197370
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.01 sec., Time.avg = 0.01 sec., Time.max = 0.01 sec.
+Time.total = 0.01 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98921, Cost.max = -98449, Cost.sum = -197370
+Best ACVRP solution:
+  Cost = 0_-197370
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197459.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197370, Time = 0.00 sec. 
+Population:
+  1: 0_-197370
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197370, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197370, Cost.avg = -197370.00, Cost.max = -197370
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.01 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98921, Cost.max = -98449, Cost.sum = -197370
+Best ACVRP solution:
+  Cost = 0_-197370
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197460.4, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197370, Time = 0.00 sec. 
+Population:
+  1: 0_-197370
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197370, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197370, Cost.avg = -197370.00, Cost.max = -197370
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98921, Cost.max = -98449, Cost.sum = -197370
+Best ACVRP solution:
+  Cost = 0_-197370
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197460.4, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197370, Time = 0.00 sec. 
+Population:
+  1: 0_-197370
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197370, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197370, Cost.avg = -197370.00, Cost.max = -197370
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98921, Cost.max = -98449, Cost.sum = -197370
+Best ACVRP solution:
+  Cost = 0_-197370
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197460.4, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197370, Time = 0.00 sec. 
+Population:
+  1: 0_-197370
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197370, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197370, Cost.avg = -197370.00, Cost.max = -197370
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.01 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98921, Cost.max = -98449, Cost.sum = -197370
+Best ACVRP solution:
+  Cost = 0_-197370
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197460.4, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197370, Time = 0.00 sec. 
+Population:
+  1: 0_-197370
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197370, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197370, Cost.avg = -197370.00, Cost.max = -197370
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98921, Cost.max = -98449, Cost.sum = -197370
+Best ACVRP solution:
+  Cost = 0_-197370
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197377.4, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197274, Time = 0.00 sec. 
+* 12: Cost = 0_-197277, Time = 0.00 sec. 
+Population:
+  1: 0_-197277
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197277, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197277, Cost.avg = -197277.00, Cost.max = -197277
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98687, Cost.max = -98590, Cost.sum = -197277
+Best ACVRP solution:
+  Cost = 0_-197277
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197377.4, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197274, Time = 0.00 sec. 
+* 12: Cost = 0_-197277, Time = 0.00 sec. 
+Population:
+  1: 0_-197277
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197277, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197277, Cost.avg = -197277.00, Cost.max = -197277
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98687, Cost.max = -98590, Cost.sum = -197277
+Best ACVRP solution:
+  Cost = 0_-197277
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197377.4, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197274, Time = 0.00 sec. 
+* 12: Cost = 0_-197277, Time = 0.00 sec. 
+Population:
+  1: 0_-197277
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197277, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197277, Cost.avg = -197277.00, Cost.max = -197277
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98687, Cost.max = -98590, Cost.sum = -197277
+Best ACVRP solution:
+  Cost = 0_-197277
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197377.4, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197274, Time = 0.00 sec. 
+* 12: Cost = 0_-197277, Time = 0.00 sec. 
+Population:
+  1: 0_-197277
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197277, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197277, Cost.avg = -197277.00, Cost.max = -197277
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98687, Cost.max = -98590, Cost.sum = -197277
+Best ACVRP solution:
+  Cost = 0_-197277
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197377.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197275, Time = 0.00 sec. 
+* 5: Cost = 0_-197278, Time = 0.00 sec. 
+Population:
+  1: 0_-197278
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197278, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197278, Cost.avg = -197278.00, Cost.max = -197278
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98687, Cost.max = -98591, Cost.sum = -197278
+Best ACVRP solution:
+  Cost = 0_-197278
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197378.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197276, Time = 0.00 sec. 
+* 5: Cost = 0_-197279, Time = 0.00 sec. 
+Population:
+  1: 0_-197279
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197279, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197279, Cost.avg = -197279.00, Cost.max = -197279
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98687, Cost.max = -98592, Cost.sum = -197279
+Best ACVRP solution:
+  Cost = 0_-197279
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197379.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197277, Time = 0.00 sec. 
+* 5: Cost = 0_-197280, Time = 0.00 sec. 
+Population:
+  1: 0_-197280
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197280, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197280, Cost.avg = -197280.00, Cost.max = -197280
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98687, Cost.max = -98593, Cost.sum = -197280
+Best ACVRP solution:
+  Cost = 0_-197280
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 29
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.133333
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 30
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 29
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197380.7, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 15 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197278, Time = 0.00 sec. 
+* 2: Cost = 0_-197281, Time = 0.00 sec. 
+Population:
+  1: 0_-197281
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197281, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197281, Cost.avg = -197281.00, Cost.max = -197281
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 30, Trials.avg = 30.0, Trials.max = 30
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 6, Size.max = 7, Penalty = 0
+  Cost.min = -98687, Cost.max = -98594, Cost.sum = -197281
+Best ACVRP solution:
+  Cost = 0_-197281
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 27
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.142857
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 28
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 27
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197475.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 14 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197309, Time = 0.00 sec. 
+Population:
+  1: 0_-197309
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197309, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197309, Cost.avg = -197309.00, Cost.max = -197309
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 28, Trials.avg = 28.0, Trials.max = 28
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 5, Size.max = 7, Penalty = 0
+  Cost.min = -98893, Cost.max = -98416, Cost.sum = -197309
+Best ACVRP solution:
+  Cost = 0_-197309
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 27
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.142857
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 28
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 27
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197475.0, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 14 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197309, Time = 0.00 sec. 
+Population:
+  1: 0_-197309
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197309, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197309, Cost.avg = -197309.00, Cost.max = -197309
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 28, Trials.avg = 28.0, Trials.max = 28
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.01 sec.
+  Size.min = 5, Size.max = 7, Penalty = 0
+  Cost.min = -98893, Cost.max = -98416, Cost.sum = -197309
+Best ACVRP solution:
+  Cost = 0_-197309
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 27
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.142857
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 28
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 27
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235988
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197475.8, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 14 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197309, Time = 0.00 sec. 
+Population:
+  1: 0_-197309
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197309, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197309, Cost.avg = -197309.00, Cost.max = -197309
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 28, Trials.avg = 28.0, Trials.max = 28
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 5, Size.max = 7, Penalty = 0
+  Cost.min = -98893, Cost.max = -98416, Cost.sum = -197309
+Best ACVRP solution:
+  Cost = 0_-197309
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 27
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.142857
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 28
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 27
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235989
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197475.8, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 14 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197303, Time = 0.00 sec. 
+* 5: Cost = 0_-197309, Time = 0.00 sec. 
+Population:
+  1: 0_-197309
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197309, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197309, Cost.avg = -197309.00, Cost.max = -197309
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 28, Trials.avg = 28.0, Trials.max = 28
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 5, Size.max = 7, Penalty = 0
+  Cost.min = -98893, Cost.max = -98416, Cost.sum = -197309
+Best ACVRP solution:
+  Cost = 0_-197309
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 27
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.142857
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 28
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 27
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235989
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197475.8, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 14 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197303, Time = 0.00 sec. 
+* 5: Cost = 0_-197307, Time = 0.00 sec. 
+Population:
+  1: 0_-197307
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197307, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197307, Cost.avg = -197307.00, Cost.max = -197307
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 28, Trials.avg = 28.0, Trials.max = 28
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 5, Size.max = 7, Penalty = 0
+  Cost.min = -98891, Cost.max = -98416, Cost.sum = -197307
+Best ACVRP solution:
+  Cost = 0_-197307
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 27
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.142857
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 28
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 27
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235989
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197475.8, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 14 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197303, Time = 0.00 sec. 
+* 5: Cost = 0_-197307, Time = 0.00 sec. 
+Population:
+  1: 0_-197307
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197307, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197307, Cost.avg = -197307.00, Cost.max = -197307
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 28, Trials.avg = 28.0, Trials.max = 28
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.01 sec.
+  Size.min = 5, Size.max = 7, Penalty = 0
+  Cost.min = -98891, Cost.max = -98416, Cost.sum = -197307
+Best ACVRP solution:
+  Cost = 0_-197307
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.par
+Reading PROBLEM_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp" ... done
+ASCENT_CANDIDATES = 27
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# BWTSP =
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+DEPOT = 1
+# EDGE_FILE =
+EXCESS = 0.142857
+EXTERNAL_SALESMEN = 0
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = NO
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 100
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 4
+KICKS = 1
+# MAX_BREADTH =
+MAKESPAN = NO
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 0
+MAX_TRIALS = 28
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5 SPECIAL
+MTSP_MIN_SIZE = 1
+MTSP_MAX_SIZE = 27
+# MTSP_SOLUTION_FILE = 
+# NONSEQUENTIAL_MOVE_TYPE = 5
+# OPTIMUM =
+# OUTPUT_TOUR_FILE = 
+PATCHING_A = 1 
+PATCHING_C = 0 
+# PI_FILE = 
+POPMUSIC_INITIAL_TOUR = NO
+POPMUSIC_MAX_NEIGHBORS = 5
+POPMUSIC_SAMPLE_SIZE = 10
+POPMUSIC_SOLUTIONS = 50
+POPMUSIC_TRIALS = 1
+POPULATION_SIZE = 10
+PRECISION = 100
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.atsp
+RECOMBINATION = IPT
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SALESMEN = 2
+SCALE = 1
+SEED = 1705235989
+# SINTEF_SOLUTION_FILE = 
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5 SPECIAL
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+TOUR_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour
+TRACE_LEVEL = 1
+VEHICLES = 2
+
+Lower bound = -197475.2, Ascent time = 0.00 sec.
+Cand.min = 3, Cand.avg = 4.7, Cand.max = 5
+Edges.fixed = 14 [Cost = 0]
+Preprocessing time = 0.00 sec.
+* 1: Cost = 0_-197307, Time = 0.00 sec. 
+Population:
+  1: 0_-197307
+Writing TOUR_FILE: "/home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp3_3.tour" ... done
+Run 1: Cost = 0_-197307, Time = 0.00 sec. 
+
+Successes/Runs = 0/1 
+Cost.min = -197307, Cost.avg = -197307.00, Cost.max = -197307
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Penalty.min = 0, Penalty.avg = 0.00, Penalty.max = 0
+Trials.min = 28, Trials.avg = 28.0, Trials.max = 28
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Time.total = 0.00 sec.
+  Size.min = 5, Size.max = 7, Penalty = 0
+  Cost.min = -98891, Cost.max = -98416, Cost.sum = -197307
+Best ACVRP solution:
+  Cost = 0_-197307
+

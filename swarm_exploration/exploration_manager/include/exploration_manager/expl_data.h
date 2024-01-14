@@ -51,6 +51,7 @@ struct DroneState {
 
   vector<int> grid_ids_;         // Id of grid tour
   double recent_interact_time_;  // Stamp of latest opt with this drone
+  double complexity_;            // Complexity of local map
 };
 
 struct ExplorationData {

@@ -58,8 +58,9 @@ void FastExplorationFSM::init(ros::NodeHandle& nh) {
   odom_sub_ = nh.subscribe("/odom_world", 1, &FastExplorationFSM::odometryCallback, this);
 
   cluster_cloud_pub = nh.advertise<sensor_msgs::PointCloud2>("cluster_cloud", 1);
-  local_map_sub_ = nh.subscribe("/sdf_map/occupancy_local", 1, &FastExplorationFSM::droneLocalComplexityCallback, this);
-  drone_local_complexity_pub_ = nh.advertise<std_msgs::Empty>("drone_local_complexity", 1);
+  local_map_sub_ = nh.subscribe("/sdf_map/occupancy_local", 1, &FastExplorationFSM::droneLocalComplexityCalculate, this);
+  drone_local_complexity_pub_ = nh.advertise<exploration_manager::DroneLocalComplexity>("/swarm_expl/drone_local_complexity", 1);
+  drone_local_complexity_sub_ = nh.subscribe("/swarm_expl/drone_local_complexity", 1, &FastExplorationFSM::LocalComplexityCallback, this);
 
   replan_pub_ = nh.advertise<std_msgs::Empty>("/planning/replan", 10);
   new_pub_ = nh.advertise<std_msgs::Empty>("/planning/new", 10);
@@ -475,7 +476,7 @@ void FastExplorationFSM::visualize(int content) {
     //                           "refine_pair", 0, 6);
     // for (int i = 0; i < ed_ptr->n_points_.size(); ++i)
     //   visualization_->drawSpheres(ed_ptr->n_points_[i], 0.1,
-    //                               visualization_->getColor(double(ed_ptr->refined_ids_[i]) /
+    //                               visualization_->getColor(double(ed_ptr->refined_ids_[i]) 
     //                               ed_ptr->frontiers_.size()),
     //                               "n_points", i, 6);
     // for (int i = ed_ptr->n_points_.size(); i < 15; ++i)
@@ -665,6 +666,7 @@ void FastExplorationFSM::transitState(EXPL_STATE new_state, string pos_call) {
 void FastExplorationFSM::droneStateTimerCallback(const ros::TimerEvent& e) {
   // Broadcast own state periodically
   exploration_manager::DroneState msg;
+  
   msg.drone_id = getId();
 
   auto& state = expl_manager_->ed_->swarm_state_[msg.drone_id - 1];
@@ -713,6 +715,14 @@ void FastExplorationFSM::droneStateMsgCallback(const exploration_manager::DroneS
   // std::cout << "Drone " << getId() << " get drone " << int(msg->drone_id) << "'s state" <<
   // std::endl; std::cout << drone_state.pos_.transpose() << std::endl;
 }
+
+void FastExplorationFSM::LocalComplexityCallback(const exploration_manager::DroneLocalComplexity& msg){
+  if (msg.drone_id == getId()) return;
+  auto& state = expl_manager_->ed_->swarm_state_[msg.drone_id - 1];
+  state.complexity_ = msg.local_complexity;
+  // ROS_INFO("id=%d, complexity=%f", msg.drone_id, state.complexity_);
+}
+
 
 void FastExplorationFSM::optTimerCallback(const ros::TimerEvent& e) {
   if (state_ == INIT) return;

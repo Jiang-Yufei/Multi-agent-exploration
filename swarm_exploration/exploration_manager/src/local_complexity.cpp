@@ -20,11 +20,12 @@
 
 using namespace Eigen;
 namespace fast_planner {
-void FastExplorationFSM::droneLocalComplexityCallback(const sensor_msgs::PointCloud2::ConstPtr& msg){
+void FastExplorationFSM::droneLocalComplexityCalculate(const sensor_msgs::PointCloud2::ConstPtr& msg){
+    
     // ROS_INFO("Local Map received!");
     pcl::PointCloud<pcl::PointXYZ> cloud;
     pcl::fromROSMsg(*msg, cloud);
-    ROS_INFO("Cloud size: %d", cloud.size());
+    //ROS_INFO("Cloud size: %d", cloud.size());
     if (cloud.size() == 0) {
         ROS_INFO("Empty cloud!");
         return;
@@ -95,12 +96,18 @@ void FastExplorationFSM::droneLocalComplexityCallback(const sensor_msgs::PointCl
     t2 = ros::Time::now();
     //ROS_INFO("Time cost: %f", (t2 - t1).toSec());
 
-    double complexity = cal_local_complexity(clusters.size());
-    
+    double complexity = cal_local_complexity(clusters.size(), 5);
+    exploration_manager::DroneLocalComplexity complexity_msg;
+    complexity_msg.drone_id = getId();
+    complexity_msg.local_complexity = complexity;
+    drone_local_complexity_pub_.publish(complexity_msg);
+    //ROS_INFO("drone_complexity=%f", complexity);
 }
 
-double FastExplorationFSM::cal_local_complexity(int cluster_num){
-    double complexity = cluster_num;
+double FastExplorationFSM::cal_local_complexity(int cluster_num, int a){
+    double complexity = 1 - a * std::exp(-cluster_num);
+    //ROS_INFO("Local complexity: %f", complexity);
+
     return complexity;
 }
 

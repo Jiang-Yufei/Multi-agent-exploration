@@ -1,7 +1,7 @@
 <launch>
   <!-- size of map, change the size in x, y, z according to your application -->
-  <arg name="map_size_x" value="35.0"/>
-  <arg name="map_size_y" value="35.0"/>
+  <arg name="map_size_x" value="20.0"/>
+  <arg name="map_size_y" value="20.0"/>
   <arg name="map_size_z" value=" 3.5"/>
 
   <!-- Global odom prefix -->
@@ -11,7 +11,7 @@
     <!-- Map generation -->
   <!-- <node pkg ="map_generator" name ="map_pub" type ="map_pub" output = "screen" args="$(find map_generator)/resource/office.pcd">    
   </node> -->
-  <node pkg ="map_generator" name ="map_pub" type ="map_pub" output = "screen" args="$(find map_generator)/resource/pillar.pcd">    
+  <node pkg ="map_generator" name ="map_pub" type ="map_pub" output = "screen" args="$(find map_generator)/resource/tmp.pcd">    
   </node>
 
 <include file="$(find exploration_manager)/launch/single_drone_exploration.xml">

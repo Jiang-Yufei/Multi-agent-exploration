@@ -547,6 +547,10 @@ void FastExplorationManager::findGlobalTour(const Vector3d& cur_pos, const Vecto
   // Get cost matrix for current state and clusters
   Eigen::MatrixXd cost_mat;
   frontier_finder_->getFullCostMatrix(cur_pos, cur_vel, cur_yaw, cost_mat);
+
+  // 根据complexity修正cost_mat
+  cost_mat = ed_->swarm_state_[ep_->drone_id_ - 1].complexity_ * cost_mat;
+
   const int dimension = cost_mat.rows();
   std::cout << "mat:   " << cost_mat.rows() << std::endl;
 

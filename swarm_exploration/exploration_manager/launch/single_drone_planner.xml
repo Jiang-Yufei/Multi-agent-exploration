@@ -85,11 +85,12 @@
     <param name="sdf_map/box_max_x" value="4" type="double"/>
     <param name="sdf_map/box_max_y" value="7" type="double"/>
     <param name="sdf_map/box_max_z" value="2.0" type="double"/> -->
+    
     <param name="sdf_map/box_min_x" value="-7" type="double"/>
-    <param name="sdf_map/box_min_y" value="-15" type="double"/>
+    <param name="sdf_map/box_min_y" value="-10" type="double"/>
     <param name="sdf_map/box_min_z" value="0" type="double"/> 
     <param name="sdf_map/box_max_x" value="7" type="double"/>
-    <param name="sdf_map/box_max_y" value="15" type="double"/>
+    <param name="sdf_map/box_max_y" value="10" type="double"/>
     <param name="sdf_map/box_max_z" value="1.7" type="double"/>
     <param name="sdf_map/no_drone_1" value="false" type="bool"/>
 

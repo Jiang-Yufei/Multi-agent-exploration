@@ -1,0 +1,2483 @@
+hit: 0.619039, miss: -0.619039, min: -1.99243, max: 2.19722, thresh: 1.38629
+origin_: -10 -10  -1
+map size:  20  20 3.5
+origin_: -10 -10  -1
+map size:  20  20 3.5
+origin_: -10 -10  -1
+map size:  20  20 3.5
+data size: 12
+grid num: 3 4 1
+resolution: 4.66667       5     1.7
+data size: 48
+grid num: 6 8 1
+resolution: 2.33333     2.5     1.7
+origin_: -10 -10  -1
+map size:  20  20 3.5
+[0m[ INFO] [1705236724.151729564]: [FSM]: Drone 1 state: INIT[0m
+[0m[ INFO] [1705236724.187607172]: Empty cloud![0m
+[0m[ INFO] [1705236725.162288176]: [FSM]: Drone 1 state: INIT[0m
+[0m[ INFO] [1705236726.162850374]: [FSM]: Drone 1 state: INIT[0m
+[0m[ INFO] [1705236726.162883712]: [FSM]: Drone 1 from INIT to WAIT_TRIGGER[0m
+Frontier cost mat size: 4
+[0m[ INFO] [1705236726.655424542]: Drone 1: frontier t: 0.004563, viewpoint t: 0.003188, mat: 0.000128[0m
+[0m[ INFO] [1705236726.655443860]: Total t: 0.007928[0m
+[0m[ INFO] [1705236726.655452744]: Find grid tour---------------[0m
+Allocated grid: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 
+Grid tour: 6, 10, 11, 7, 3, 2, 1, 5, 9, 8, 4, 0, 
+
+Select: 2
+Pair Opt id: 0, 4, 8, 9, 5, 1, 2, 3, 7, 11, 10, 6, 
+Missed: 57, 56, 55, 54, 49, 48, 46, 41, 39, 30, 33, 40, 31, 32, 38, 
+Allocation time: 0.0204753
+Ego1  : 6, 10, 11, 7, 3, 2, 1, 5, 9, 8, 4, 0, 
+Other1: 
+Ego2  : 31, 1, 0, 4, 8, 
+Other2: 39, 5, 30, 38, 46, 9, 54, 55, 56, 48, 10, 57, 49, 41, 33, 6, 40, 32, 2, 3, 7, 11, 
+prev cost: 55.9508, 0, 55.9508
+cur cost : 20.1747, 53.2462, 73.4209
+
+Select: 3
+Pair Opt id: 8, 4, 0, 1, 31, 
+Missed: 
+Allocation time: 0.00314814
+Ego1  : 31, 1, 0, 4, 8, 
+Other1: 
+Ego2  : 31, 1, 0, 
+Other2: 4, 8, 
+prev cost: 20.1747, 0, 20.1747
+cur cost : 10.8414, 22.5339, 33.3753
+
+Select: 4
+Pair Opt id: 32, 6, 33, 2, 41, 0, 40, 1, 31, 
+Missed: 
+Allocation time: 0.00423659
+Ego1  : 31, 1, 0, 
+Other1: 40, 41, 33, 6, 32, 2, 
+Ego2  : 31, 1, 0, 
+Other2: 40, 41, 33, 6, 32, 2, 
+prev cost: 10.8414, 13.787, 24.6284
+cur cost : 10.8414, 13.787, 24.6284
+Frontier cost mat size: 4
+[0m[ INFO] [1705236727.141956258]: Drone 1: frontier t: 0.000858, viewpoint t: 0.000054, mat: 0.000028[0m
+[0m[ INFO] [1705236727.141997161]: Total t: 0.001025[0m
+[0m[ INFO] [1705236727.142008448]: Find grid tour---------------[0m
+Allocated grid: 1, 0, 31, 
+Grid tour: 31, 1, 0, 
+[0m[ INFO] [1705236727.168290202]: [FSM]: Drone 1 state: WAIT_TRIGGER[0m
+
+Select: 2
+Pair Opt id: 3, 31, 57, 1, 0, 38, 46, 7, 54, 55, 56, 48, 49, 11, 
+Missed: 
+Allocation time: 0.00504699
+Ego1  : 31, 1, 0, 
+Other1: 38, 46, 46, 54, 54, 55, 55, 56, 56, 48, 48, 49, 49, 57, 57, 11, 7, 3, 
+Ego2  : 31, 1, 0, 
+Other2: 38, 46, 54, 55, 56, 57, 49, 48, 11, 7, 3, 
+prev cost: 10.8414, 41.8198, 52.6612
+cur cost : 10.8414, 36.4404, 47.2818
+
+Select: 3
+Pair Opt id: 8, 4, 30, 38, 39, 0, 1, 31, 
+Missed: 
+Allocation time: 0.00335511
+Ego1  : 31, 1, 0, 
+Other1: 31, 39, 39, 38, 30, 30, 4, 8, 
+Ego2  : 30, 38, 4, 8, 
+Other2: 39, 31, 1, 0, 
+prev cost: 10.8414, 18.1762, 29.0175
+cur cost : 15.652, 11.9398, 27.5917
+
+Select: 4
+Pair Opt id: 11, 3, 32, 7, 33, 2, 41, 40, 8, 38, 4, 30, 
+Missed: 
+Allocation time: 0.00469758
+Ego1  : 30, 38, 4, 8, 
+Other1: 40, 41, 33, 32, 2, 3, 7, 11, 
+Ego2  : 32, 30, 38, 4, 8, 
+Other2: 40, 41, 33, 2, 3, 7, 11, 
+prev cost: 15.652, 27.3269, 42.9789
+cur cost : 18.0537, 24.7919, 42.8456
+Frontier cost mat size: 4
+[0m[ INFO] [1705236727.642250203]: Drone 1: frontier t: 0.001045, viewpoint t: 0.000063, mat: 0.000038[0m
+[0m[ INFO] [1705236727.642283977]: Total t: 0.001226[0m
+[0m[ INFO] [1705236727.642294537]: Find grid tour---------------[0m
+Allocated grid: 4, 8, 32, 30, 38, 
+Grid tour: 32, 30, 38, 4, 8, 
+
+Select: 2
+Pair Opt id: 0, 1, 31, 8, 38, 4, 30, 32, 
+Missed: 
+Allocation time: 0.00349628
+Ego1  : 32, 30, 38, 4, 8, 
+Other1: 31, 1, 0, 
+Ego2  : 32, 1, 0, 
+Other2: 31, 30, 38, 4, 8, 
+prev cost: 18.0537, 10.4192, 28.4729
+cur cost : 11.9768, 15.1316, 27.1083
+
+Select: 3
+Pair Opt id: 57, 49, 48, 56, 55, 54, 46, 38, 39, 0, 1, 32, 
+Missed: 
+Allocation time: 0.00486675
+Ego1  : 32, 1, 0, 
+Other1: 39, 38, 46, 54, 55, 56, 48, 49, 57, 
+Ego2  : 32, 1, 0, 
+Other2: 39, 48, 49, 57, 56, 55, 54, 46, 38, 
+prev cost: 11.9768, 20.3018, 32.2786
+cur cost : 11.9768, 22.8288, 34.8056
+
+Select: 4
+Pair Opt id: 8, 4, 30, 38, 0, 1, 32, 
+Missed: 
+Allocation time: 0.00383864
+Ego1  : 32, 1, 0, 
+Other1: 38, 30, 4, 8, 
+Ego2  : 32, 1, 0, 
+Other2: 38, 30, 4, 8, 
+prev cost: 11.9768, 15.9793, 27.9561
+cur cost : 11.9768, 15.9793, 27.9561
+Frontier cost mat size: 4
+[0m[ INFO] [1705236728.142141929]: Drone 1: frontier t: 0.001093, viewpoint t: 0.000057, mat: 0.000018[0m
+[0m[ INFO] [1705236728.142167457]: Total t: 0.001216[0m
+[0m[ INFO] [1705236728.142177914]: Find grid tour---------------[0m
+Allocated grid: 1, 0, 32, 
+Grid tour: 32, 1, 0, 
+[0m[ INFO] [1705236728.168736640]: [FSM]: Drone 1 state: WAIT_TRIGGER[0m
+
+Select: 2
+Pair Opt id: 3, 32, 1, 0, 38, 46, 7, 54, 55, 56, 48, 49, 57, 11, 
+Missed: 
+Allocation time: 0.00539627
+Ego1  : 32, 1, 0, 
+Other1: 38, 46, 54, 55, 56, 48, 49, 57, 11, 7, 3, 
+Ego2  : 32, 1, 0, 
+Other2: 38, 46, 54, 55, 56, 57, 49, 48, 11, 7, 3, 
+prev cost: 11.9768, 41.8198, 53.7966
+cur cost : 11.9768, 36.4404, 48.4171
+
+Select: 3
+Pair Opt id: 8, 4, 30, 38, 0, 1, 32, 
+Missed: 
+Allocation time: 0.00415636
+Ego1  : 32, 1, 0, 
+Other1: 38, 30, 4, 8, 
+Ego2  : 32, 1, 0, 
+Other2: 38, 30, 4, 8, 
+prev cost: 11.9768, 14.6522, 26.629
+cur cost : 11.9768, 14.6522, 26.629
+Frontier cost mat size: 4
+[0m[ INFO] [1705236728.642208790]: Drone 1: frontier t: 0.001179, viewpoint t: 0.000036, mat: 0.000020[0m
+[0m[ INFO] [1705236728.642227175]: Total t: 0.001281[0m
+[0m[ INFO] [1705236728.642232926]: Find grid tour---------------[0m
+Allocated grid: 1, 0, 32, 
+Grid tour: 32, 1, 0, 
+
+Select: 4
+Pair Opt id: 38, 32, 1, 40, 0, 33, 46, 41, 54, 49, 57, 48, 56, 55, 
+Missed: 
+Allocation time: 0.0045802
+Ego1  : 32, 1, 0, 
+Other1: 40, 33, 41, 49, 57, 48, 56, 55, 54, 46, 38, 
+Ego2  : 32, 1, 0, 
+Other2: 40, 33, 41, 49, 57, 48, 56, 55, 54, 46, 38, 
+prev cost: 11.9768, 27.3962, 39.373
+cur cost : 11.9768, 27.3962, 39.373
+
+Select: 2
+Pair Opt id: 8, 4, 30, 38, 0, 1, 32, 
+Missed: 
+Allocation time: 0.003624
+Ego1  : 32, 1, 0, 
+Other1: 38, 30, 4, 8, 
+Ego2  : 32, 1, 0, 
+Other2: 38, 30, 4, 8, 
+prev cost: 11.9768, 14.7061, 26.6829
+cur cost : 11.9768, 14.7061, 26.6829
+
+Select: 3
+Pair Opt id: 11, 7, 3, 2, 31, 39, 0, 1, 32, 
+Missed: 
+Allocation time: 0.0345178
+Ego1  : 32, 1, 0, 
+Other1: 39, 31, 2, 3, 7, 11, 
+Ego2  : 32, 2, 3, 7, 11, 
+Other2: 39, 31, 1, 0, 
+prev cost: 11.9768, 22.4085, 34.3853
+cur cost : 20.1747, 11.9398, 32.1145
+[0m[ INFO] [1705236729.251542402]: [FSM]: Drone 1 state: WAIT_TRIGGER[0m
+Frontier cost mat size: 4
+[0m[ INFO] [1705236729.262899543]: Drone 1: frontier t: 0.010645, viewpoint t: 0.000272, mat: 0.000096[0m
+[0m[ INFO] [1705236729.263033020]: Total t: 0.011220[0m
+[0m[ INFO] [1705236729.263136714]: Find grid tour---------------[0m
+Allocated grid: 1, 0, 32, 
+Grid tour: 32, 1, 0, 
+Triggered!
+Frontier cost mat size: 4
+[0m[ INFO] [1705236729.739977674]: Drone 1: frontier t: 0.001145, viewpoint t: 0.000070, mat: 0.000020[0m
+[0m[ INFO] [1705236729.739996133]: Total t: 0.001273[0m
+[0m[ INFO] [1705236729.740006787]: [triggerCallback]: Drone 1 from WAIT_TRIGGER to PLAN_TRAJ[0m
+[0m[ INFO] [1705236729.766440527]: Find grid tour---------------[0m
+Allocated grid: 2, 3, 7, 11, 32, 
+Grid tour: 32, 2, 3, 7, 11, 
+[0m[ INFO] [1705236729.768647108]: Find frontier tour, 0 involved------------[0m
+Next view:  0.795989 -0.563345  0.939655, 1.66909
+Traj opt iter num: 286
+[0m[ INFO] [1705236729.772124683]: Traj: 0.003135, yaw: 0.000217[0m
+[0m[ INFO] [1705236729.772136462]: Total time: 0.005720[0m
+[0m[ INFO] [1705236729.772149928]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 4
+Pair Opt id: 8, 46, 54, 2, 41, 32, 3, 55, 7, 33, 11, 40, 49, 57, 48, 56, 
+Missed: 
+Allocation time: 0.00634547
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 40, 33, 41, 49, 57, 48, 56, 55, 54, 46, 8, 
+Ego2  : 32, 2, 3, 7, 11, 
+Other2: 40, 48, 33, 49, 41, 57, 56, 55, 54, 46, 8, 
+prev cost: 10.1747, 19.3766, 29.5514
+cur cost : 10.1747, 16.7675, 26.9422
+
+Select: 2
+Pair Opt id: 0, 4, 30, 38, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00397196
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 38, 30, 4, 0, 
+Ego2  : 32, 2, 3, 7, 11, 
+Other2: 38, 30, 4, 0, 
+prev cost: 10.1747, 4.70613, 14.8808
+cur cost : 10.1747, 4.70613, 14.8808
+[0m[ INFO] [1705236729.971948931]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00352732
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.1736, -3.05158, 7.122
+cur cost : 8.22662, 6.94842, 15.175
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00583192
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.1734, -3.05158, 7.12181
+cur cost : 8.22644, 6.94842, 15.1749
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00476858
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.1731, -3.05158, 7.12148
+cur cost : 8.22611, 6.94842, 15.1745
+Frontier cost mat size: 4
+[0m[ INFO] [1705236730.173110605]: Drone 1: frontier t: 0.003054, viewpoint t: 0.003168, mat: 0.000158[0m
+[0m[ INFO] [1705236730.173162408]: Total t: 0.006491[0m
+[0m[ INFO] [1705236730.173289111]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236730.173478500]: Find grid tour---------------[0m
+Allocated grid: 2, 3, 7, 11, 32, 
+Grid tour: 32, 2, 3, 7, 11, 
+[0m[ INFO] [1705236730.177174650]: Find frontier tour, 0 involved------------[0m
+Next view:  2.63078 0.921169 0.932597, 2.90609
+Traj opt iter num: 221
+[0m[ INFO] [1705236730.179755698]: Traj: 0.002300, yaw: 0.000110[0m
+[0m[ INFO] [1705236730.179762319]: Total time: 0.006294[0m
+[0m[ INFO] [1705236730.179773208]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00387859
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.173, -2.80389, 7.36914
+cur cost : 8.22604, 7.19611, 15.4222
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00370449
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.176, -2.83269, 7.34331
+cur cost : 8.22902, 7.16731, 15.3963
+[0m[ INFO] [1705236730.259662484]: [FSM]: Drone 1 state: PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.0049608
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.176, -2.83274, 7.34326
+cur cost : 8.22902, 7.16726, 15.3963
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00544107
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.176, -2.83281, 7.3432
+cur cost : 8.22902, 7.16719, 15.3962
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00472304
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.176, -2.8326, 7.3434
+cur cost : 8.22902, 7.1674, 15.3964
+[0m[ INFO] [1705236730.386391136]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00464307
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.1776, -2.808, 7.36962
+cur cost : 8.23063, 7.192, 15.4226
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00399814
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.1801, -2.808, 7.37207
+cur cost : 8.23309, 7.192, 15.4251
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00512281
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.1864, -2.808, 7.37841
+cur cost : 8.23943, 7.192, 15.4314
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00551937
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.1906, -2.808, 7.38255
+cur cost : 8.24357, 7.192, 15.4356
+Frontier cost mat size: 3
+[0m[ INFO] [1705236730.593386010]: Drone 1: frontier t: 0.003864, viewpoint t: 0.002947, mat: 0.000057[0m
+[0m[ INFO] [1705236730.593398811]: Total t: 0.006901[0m
+[0m[ INFO] [1705236730.593421545]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236730.593620741]: Find grid tour---------------[0m
+Allocated grid: 2, 3, 7, 11, 32, 
+Grid tour: 32, 2, 3, 7, 11, 
+[0m[ INFO] [1705236730.596023855]: Find frontier tour, 0 involved------------[0m
+Next view: 1.90698 -1.0789 0.94775, 2.62591
+Mid goal
+Traj opt iter num: 83
+start yaw: 0.694373, -3.65728
+[0m[ INFO] [1705236730.596804152]: Traj: 0.000621, yaw: 0.000094[0m
+[0m[ INFO] [1705236730.596811563]: Total time: 0.003197[0m
+[0m[ INFO] [1705236730.596818966]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00566694
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.2096, -2.79469, 7.41492
+cur cost : 8.26262, 7.20531, 15.4679
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00471931
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.2096, -2.78212, 7.42748
+cur cost : 8.26262, 7.21788, 15.4805
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00410553
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.2096, -2.77232, 7.43729
+cur cost : 8.26262, 7.22768, 15.4903
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00380745
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.2096, -2.73887, 7.47073
+cur cost : 8.26262, 7.26113, 15.5237
+[0m[ INFO] [1705236730.801789271]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00477722
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.2111, -2.54617, 7.6649
+cur cost : 8.26408, 7.45383, 15.7179
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00380949
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.2157, 13.1103, 23.326
+cur cost : 8.26876, 23.1103, 31.379
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00388861
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.2262, 13.1103, 23.3364
+cur cost : 8.27918, 23.1103, 31.3894
+
+Select: 4
+Pair Opt id: 8, 46, 54, 2, 41, 32, 3, 55, 7, 33, 11, 40, 48, 49, 57, 56, 
+Missed: 
+Allocation time: 0.00844687
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 40, 48, 33, 49, 41, 57, 56, 55, 54, 46, 8, 
+Ego2  : 32, 2, 3, 7, 11, 
+Other2: 40, 48, 33, 49, 41, 57, 56, 55, 54, 46, 8, 
+prev cost: 10.2327, 18.6638, 28.8965
+cur cost : 10.2327, 18.6638, 28.8965
+Frontier cost mat size: 5
+[0m[ INFO] [1705236731.006673135]: Drone 1: frontier t: 0.005731, viewpoint t: 0.004350, mat: 0.000141[0m
+[0m[ INFO] [1705236731.006689674]: Total t: 0.010257[0m
+[0m[ INFO] [1705236731.006726877]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236731.006781211]: Find grid tour---------------[0m
+Allocated grid: 2, 3, 7, 11, 32, 40, 
+Grid tour: 40, 32, 2, 3, 7, 11, 
+[0m[ INFO] [1705236731.009391758]: Find frontier tour, 1 involved------------[0m
+[0m[ INFO] [1705236731.009884369]: Grid tour t: 0.002603, frontier tour t: 0.000491.[0m
+Local refine graph size: 1, 15, 1, 
+Next view:  1.31023 0.275209 0.921087, 2.19737
+Traj opt iter num: 521
+[0m[ INFO] [1705236731.013148597]: Traj: 0.002966, yaw: 0.000179[0m
+[0m[ INFO] [1705236731.013173525]: Total time: 0.006391[0m
+[0m[ INFO] [1705236731.013186815]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 39, 31, 11, 7, 3, 2, 32, 1, 40, 
+Missed: 
+Allocation time: 0.00501636
+Ego1  : 40, 32, 2, 3, 7, 11, 
+Other1: 31, 1, 39, 
+Ego2  : 40, 7, 11, 
+Other2: 39, 1, 31, 32, 2, 3, 
+prev cost: 12.2799, 10.1367, 22.4166
+cur cost : 8.51319, 15.4611, 23.9743
+
+Select: 3
+Pair Opt id: 39, 31, 11, 7, 3, 2, 32, 1, 40, 
+Missed: 
+Allocation time: 0.00520843
+Ego1  : 40, 32, 2, 3, 7, 11, 
+Other1: 31, 1, 39, 
+Ego2  : 40, 7, 11, 
+Other2: 39, 1, 31, 32, 2, 3, 
+prev cost: 12.5285, 10.1592, 22.6876
+cur cost : 8.51319, 15.5245, 24.0377
+[0m[ INFO] [1705236731.206842332]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 39, 31, 11, 7, 3, 2, 32, 1, 40, 
+Missed: 
+Allocation time: 0.00447766
+Ego1  : 40, 32, 2, 3, 7, 11, 
+Other1: 31, 1, 39, 
+Ego2  : 40, 7, 11, 
+Other2: 39, 1, 31, 32, 2, 3, 
+prev cost: 12.5285, 10.3046, 22.833
+cur cost : 8.51319, 15.7563, 24.2695
+[0m[ INFO] [1705236731.266866503]: [FSM]: Drone 1 state: EXEC_TRAJ[0m
+
+Select: 4
+Pair Opt id: 8, 46, 54, 2, 41, 32, 3, 55, 7, 33, 40, 11, 48, 49, 57, 56, 
+Missed: 
+Allocation time: 0.00476843
+Ego1  : 40, 32, 2, 3, 7, 11, 
+Other1: 40, 48, 41, 49, 33, 57, 56, 55, 54, 46, 8, 
+Ego2  : 32, 2, 3, 7, 11, 
+Other2: 40, 48, 33, 49, 41, 57, 56, 55, 54, 46, 8, 
+prev cost: 12.5144, 18.0744, 30.5888
+cur cost : 10.304, 17.7023, 28.0063
+Frontier cost mat size: 5
+[0m[ INFO] [1705236731.417038594]: Drone 1: frontier t: 0.005382, viewpoint t: 0.004618, mat: 0.000133[0m
+[0m[ INFO] [1705236731.417058012]: Total t: 0.010178[0m
+[0m[ INFO] [1705236731.417084551]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236731.417113364]: Find grid tour---------------[0m
+Allocated grid: 2, 3, 7, 11, 32, 
+Grid tour: 32, 2, 3, 7, 11, 
+[0m[ INFO] [1705236731.420514808]: Find frontier tour, 0 involved------------[0m
+Next view:  1.59639  1.80663 0.947505, -2.92781
+Mid goal
+Traj opt iter num: 121
+[0m[ INFO] [1705236731.421862765]: Traj: 0.001136, yaw: 0.000077[0m
+[0m[ INFO] [1705236731.421874146]: Total time: 0.004761[0m
+[0m[ INFO] [1705236731.421887744]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.0044213
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.4077, 5.70813, 16.1158
+cur cost : 9.15975, 15.7081, 24.8679
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.0049658
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.7121, 5.73735, 16.4495
+cur cost : 9.4642, 15.7373, 25.2015
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00351213
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.7121, 5.77089, 16.483
+cur cost : 9.4642, 15.7709, 25.2351
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00371344
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.7121, 5.84384, 16.5559
+cur cost : 9.4642, 15.8438, 25.308
+[0m[ INFO] [1705236731.626866911]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00350082
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.7121, 6.50932, 17.2214
+cur cost : 9.4642, 16.5093, 25.9735
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00585923
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.5018, 6.09723, 16.5991
+cur cost : 9.25394, 16.0972, 25.3512
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00350176
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.5321, 6.09723, 16.6293
+cur cost : 9.28421, 16.0972, 25.3814
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00457666
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.5514, 6.09723, 16.6486
+cur cost : 9.30347, 16.0972, 25.4007
+Frontier cost mat size: 7
+[0m[ INFO] [1705236731.837665734]: Drone 1: frontier t: 0.006324, viewpoint t: 0.004095, mat: 0.000288[0m
+[0m[ INFO] [1705236731.837683861]: Total t: 0.010741[0m
+[0m[ INFO] [1705236731.837709204]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 39, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00417177
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 31, 1, 
+Ego2  : 32, 7, 11, 
+Other2: 39, 31, 1, 2, 3, 
+prev cost: 10.6704, 6.09723, 16.7677
+cur cost : 9.42252, 16.0972, 25.5198
+[0m[ INFO] [1705236731.844081357]: Find grid tour---------------[0m
+Allocated grid: 2, 3, 7, 11, 32, 
+Grid tour: 32, 2, 3, 7, 11, 
+[0m[ INFO] [1705236731.847101336]: Find frontier tour, 0 involved------------[0m
+Next view:  1.59639  1.80663 0.947505, -2.92781
+Mid goal
+Traj opt iter num: 125
+[0m[ INFO] [1705236731.848107971]: Traj: 0.000780, yaw: 0.000071[0m
+[0m[ INFO] [1705236731.848116342]: Total time: 0.004036[0m
+[0m[ INFO] [1705236731.848123938]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 0, 38, 4, 30, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00598841
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 30, 38, 4, 0, 
+Ego2  : 32, 2, 3, 7, 11, 
+Other2: 30, 38, 4, 0, 
+prev cost: 10.5682, 4.91961, 15.4878
+cur cost : 10.5682, 4.91961, 15.4878
+
+Select: 3
+Pair Opt id: 31, 1, 39, 11, 33, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00419539
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 39, 1, 31, 33, 
+Ego2  : 32, 2, 3, 7, 11, 
+Other2: 39, 31, 1, 33, 
+prev cost: 10.5682, 14.8925, 25.4607
+cur cost : 10.5682, 14.0975, 24.6657
+[0m[ INFO] [1705236732.046819774]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 4
+Pair Opt id: 8, 38, 46, 2, 41, 54, 32, 3, 55, 7, 11, 40, 48, 49, 57, 56, 
+Missed: 
+Allocation time: 0.00594223
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 40, 48, 41, 49, 57, 56, 55, 54, 46, 38, 8, 
+Ego2  : 32, 2, 3, 7, 11, 
+Other2: 40, 48, 41, 49, 57, 56, 55, 54, 46, 38, 8, 
+prev cost: 10.9953, 16.891, 27.8863
+cur cost : 10.9953, 16.891, 27.8863
+Frontier cost mat size: 7
+[0m[ INFO] [1705236732.257377551]: Drone 1: frontier t: 0.005320, viewpoint t: 0.004641, mat: 0.000521[0m
+[0m[ INFO] [1705236732.257397313]: Total t: 0.010525[0m
+[0m[ INFO] [1705236732.257430568]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236732.262934361]: Find grid tour---------------[0m
+Allocated grid: 2, 3, 7, 11, 32, 
+Grid tour: 32, 2, 3, 7, 11, 
+[0m[ INFO] [1705236732.268204456]: Find frontier tour, 1 involved------------[0m
+[0m[ INFO] [1705236732.268792532]: Grid tour t: 0.005261, frontier tour t: 0.000592.[0m
+Local refine graph size: 1, 2, 1, 
+Next view: 0.588142   1.6002 0.943483, 2.87911
+Traj opt iter num: 318
+[0m[ INFO] [1705236732.272365679]: Traj: 0.003183, yaw: 0.000284[0m
+[0m[ INFO] [1705236732.272407959]: Total time: 0.009477[0m
+[0m[ INFO] [1705236732.272422335]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236732.272469360]: [FSM]: Drone 1 state: PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 0, 4, 30, 11, 7, 3, 2, 32, 
+Missed: 
+Allocation time: 0.00313531
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 30, 4, 0, 
+Ego2  : 32, 2, 3, 7, 11, 
+Other2: 30, 4, 0, 
+prev cost: 11.2817, 2.40931, 13.691
+cur cost : 11.2817, 2.40931, 13.691
+[0m[ INFO] [1705236732.466891889]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 31, 1, 40, 11, 7, 3, 2, 32, 
+Missed: 39, 
+Allocation time: 0.00385783
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 40, 31, 1, 
+Ego2  : 32, 31, 1, 
+Other2: 40, 39, 2, 3, 7, 11, 
+prev cost: 11.2344, -2.15355, 9.08089
+cur cost : 4.78226, 27.5672, 32.3495
+
+Select: 3
+Pair Opt id: 31, 1, 40, 11, 7, 3, 2, 32, 
+Missed: 39, 
+Allocation time: 0.0045757
+Ego1  : 32, 2, 3, 7, 11, 
+Other1: 40, 31, 1, 
+Ego2  : 32, 31, 1, 
+Other2: 40, 39, 2, 3, 7, 11, 
+prev cost: 11.2516, -2.15355, 9.09801
+cur cost : 4.79938, 27.5672, 32.3666
+Frontier cost mat size: 10
+[0m[ INFO] [1705236732.677113396]: Drone 1: frontier t: 0.004879, viewpoint t: 0.003634, mat: 0.001619[0m
+[0m[ INFO] [1705236732.677133971]: Total t: 0.010171[0m
+[0m[ INFO] [1705236732.677184987]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236732.679169830]: Find grid tour---------------[0m
+Allocated grid: 2, 3, 7, 11, 32, 41, 
+Grid tour: 32, 41, 11, 7, 3, 2, 
+[0m[ INFO] [1705236732.683705509]: Find frontier tour, 2 involved------------[0m
+[0m[ INFO] [1705236732.684532336]: Grid tour t: 0.004530, frontier tour t: 0.000828.[0m
+Local refine graph size: 1, 3, 1, 
+[0m[ INFO] [1705236732.684653341]: Local refine time: 0.000096[0m
+Next view:  1.31819 0.506772 0.975737, -2.89176
+Traj opt iter num: 256
+[0m[ INFO] [1705236732.687318300]: Traj: 0.002558, yaw: 0.000074[0m
+[0m[ INFO] [1705236732.687329780]: Total time: 0.008166[0m
+[0m[ INFO] [1705236732.687341035]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 31, 1, 40, 3, 7, 11, 2, 41, 32, 
+Missed: 39, 
+Allocation time: 0.00555472
+Ego1  : 32, 41, 11, 7, 3, 2, 
+Other1: 40, 31, 1, 
+Ego2  : 32, 31, 1, 
+Other2: 40, 39, 2, 3, 7, 41, 11, 
+prev cost: 24.1226, -2.18044, 21.9422
+cur cost : 4.76451, 33.9207, 38.6852
+
+Select: 3
+Pair Opt id: 31, 1, 40, 3, 7, 11, 2, 41, 32, 
+Missed: 39, 
+Allocation time: 0.00526094
+Ego1  : 32, 41, 11, 7, 3, 2, 
+Other1: 40, 31, 1, 
+Ego2  : 32, 31, 1, 
+Other2: 40, 39, 2, 3, 7, 41, 11, 
+prev cost: 23.7173, -2.19386, 21.5234
+cur cost : 4.35918, 33.9072, 38.2664
+
+Select: 3
+Pair Opt id: 31, 1, 40, 3, 7, 11, 2, 41, 32, 
+Missed: 39, 
+Allocation time: 0.00670724
+Ego1  : 32, 41, 11, 7, 3, 2, 
+Other1: 40, 31, 1, 
+Ego2  : 32, 31, 1, 
+Other2: 40, 39, 2, 3, 7, 41, 11, 
+prev cost: 23.7173, -2.21096, 21.5063
+cur cost : 4.35918, 33.8901, 38.2493
+
+Select: 3
+Pair Opt id: 31, 1, 40, 3, 7, 11, 2, 41, 32, 
+Missed: 39, 
+Allocation time: 0.00497758
+Ego1  : 32, 41, 11, 7, 3, 2, 
+Other1: 40, 31, 1, 
+Ego2  : 32, 31, 1, 
+Other2: 40, 39, 2, 3, 7, 41, 11, 
+prev cost: 23.7173, -2.21304, 21.5043
+cur cost : 4.35918, 33.8881, 38.2472
+
+Select: 3
+Pair Opt id: 31, 1, 40, 3, 7, 11, 2, 41, 32, 
+Missed: 39, 
+Allocation time: 0.00498735
+Ego1  : 32, 41, 11, 7, 3, 2, 
+Other1: 40, 31, 1, 
+Ego2  : 32, 31, 1, 
+Other2: 40, 39, 2, 3, 7, 41, 11, 
+prev cost: 23.7173, -2.21151, 21.5058
+cur cost : 4.35918, 33.8896, 38.2488
+[0m[ INFO] [1705236732.889669164]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 3, 7, 11, 2, 41, 32, 
+Missed: 39, 
+Allocation time: 0.00513604
+Ego1  : 32, 41, 11, 7, 3, 2, 
+Other1: 31, 1, 
+Ego2  : 41, 11, 7, 3, 
+Other2: 31, 39, 32, 2, 1, 
+prev cost: 23.8446, -2.30076, 21.5439
+cur cost : 18.3231, 22.1642, 40.4873
+
+Select: 3
+Pair Opt id: 1, 31, 3, 7, 11, 2, 41, 32, 
+Missed: 39, 
+Allocation time: 0.00596571
+Ego1  : 32, 41, 11, 7, 3, 2, 
+Other1: 31, 1, 
+Ego2  : 41, 11, 7, 3, 
+Other2: 31, 39, 32, 2, 1, 
+prev cost: 23.6656, -2.30076, 21.3648
+cur cost : 17.9353, 22.1642, 40.0995
+
+Select: 3
+Pair Opt id: 1, 31, 3, 7, 11, 2, 41, 32, 
+Missed: 39, 
+Allocation time: 0.00445978
+Ego1  : 32, 41, 11, 7, 3, 2, 
+Other1: 31, 1, 
+Ego2  : 41, 11, 7, 3, 
+Other2: 31, 39, 32, 2, 1, 
+prev cost: 23.6678, -2.30076, 21.367
+cur cost : 18.1785, 22.1642, 40.3426
+
+Select: 3
+Pair Opt id: 1, 31, 3, 7, 11, 2, 41, 32, 
+Missed: 39, 
+Allocation time: 0.00638986
+Ego1  : 32, 41, 11, 7, 3, 2, 
+Other1: 31, 1, 
+Ego2  : 41, 11, 7, 3, 
+Other2: 31, 39, 32, 2, 1, 
+prev cost: 23.7987, -2.30076, 21.4979
+cur cost : 16.5453, 22.4127, 38.958
+Frontier cost mat size: 10
+[0m[ INFO] [1705236733.101338439]: Drone 1: frontier t: 0.004388, viewpoint t: 0.004186, mat: 0.001627[0m
+[0m[ INFO] [1705236733.101361115]: Total t: 0.010253[0m
+[0m[ INFO] [1705236733.101409011]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236733.101446282]: Find grid tour---------------[0m
+Allocated grid: 11, 7, 3, 16, 24, 17, 25, 
+Grid tour: 24, 16, 17, 25, 3, 7, 11, 
+[0m[ INFO] [1705236733.106025774]: Find frontier tour, 2 involved------------[0m
+[0m[ INFO] [1705236733.106736111]: Grid tour t: 0.004568, frontier tour t: 0.000715.[0m
+Local refine graph size: 1, 15, 1, 
+[0m[ INFO] [1705236733.106860713]: Local refine time: 0.000110[0m
+Next view: -1.23656  2.32488 0.776135, 2.61611
+Mid goal
+Traj opt iter num: 295
+[0m[ INFO] [1705236733.109640287]: Traj: 0.002670, yaw: 0.000083[0m
+[0m[ INFO] [1705236733.109655233]: Total time: 0.008208[0m
+[0m[ INFO] [1705236733.109668822]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 7, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.0055275
+Ego1  : 24, 16, 17, 25, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 16, 17, 25, 3, 7, 11, 
+Other2: 39, 31, 1, 
+prev cost: 15.3025, -2.2988, 13.0037
+cur cost : 15.3025, 12.0716, 27.3741
+
+Select: 3
+Pair Opt id: 1, 31, 7, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.0049436
+Ego1  : 24, 16, 17, 25, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 16, 17, 25, 3, 7, 11, 
+Other2: 39, 31, 1, 
+prev cost: 15.3025, -2.1767, 13.1258
+cur cost : 15.3025, 12.0796, 27.3821
+
+Select: 3
+Pair Opt id: 1, 31, 7, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00431106
+Ego1  : 24, 16, 17, 25, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 16, 17, 25, 3, 7, 11, 
+Other2: 39, 31, 1, 
+prev cost: 15.3025, -2.17745, 13.125
+cur cost : 15.3025, 12.0812, 27.3836
+[0m[ INFO] [1705236733.276820349]: [FSM]: Drone 1 state: PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 7, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00417823
+Ego1  : 24, 16, 17, 25, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 16, 17, 25, 3, 7, 11, 
+Other2: 39, 31, 1, 
+prev cost: 15.3025, -2.17741, 13.1251
+cur cost : 15.3025, 12.0805, 27.383
+[0m[ INFO] [1705236733.306936396]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 7, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00470159
+Ego1  : 24, 16, 17, 25, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 16, 17, 25, 3, 7, 11, 
+Other2: 39, 31, 1, 
+prev cost: 15.3178, -2.17686, 13.1409
+cur cost : 15.3178, 12.0787, 27.3965
+
+Select: 3
+Pair Opt id: 1, 31, 7, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00605494
+Ego1  : 24, 16, 17, 25, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 16, 17, 25, 3, 7, 11, 
+Other2: 39, 31, 1, 
+prev cost: 15.424, -2.31227, 13.1117
+cur cost : 15.424, 12.0375, 27.4614
+
+Select: 3
+Pair Opt id: 1, 31, 7, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00447706
+Ego1  : 24, 16, 17, 25, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 16, 17, 25, 3, 7, 11, 
+Other2: 39, 31, 1, 
+prev cost: 15.3989, -2.31227, 13.0866
+cur cost : 15.3989, 12.0375, 27.4364
+
+Select: 3
+Pair Opt id: 1, 31, 7, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00480175
+Ego1  : 24, 16, 17, 25, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 16, 17, 25, 3, 7, 11, 
+Other2: 39, 31, 1, 
+prev cost: 15.3776, -2.31227, 13.0654
+cur cost : 15.3776, 12.0375, 27.4151
+Frontier cost mat size: 12
+[0m[ INFO] [1705236733.517277611]: Drone 1: frontier t: 0.005041, viewpoint t: 0.003784, mat: 0.001234[0m
+[0m[ INFO] [1705236733.517295412]: Total t: 0.010098[0m
+[0m[ INFO] [1705236733.517334758]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236733.517380590]: Find grid tour---------------[0m
+Allocated grid: 3, 7, 11, 24, 16, 17, 25, 33, 
+Grid tour: 24, 16, 17, 25, 33, 3, 7, 11, 
+[0m[ INFO] [1705236733.522101183]: Find frontier tour, 2 involved------------[0m
+[0m[ INFO] [1705236733.522864686]: Grid tour t: 0.004710, frontier tour t: 0.000769.[0m
+Local refine graph size: 1, 9, 1, 
+[0m[ INFO] [1705236733.523018252]: Local refine time: 0.000143[0m
+Next view: -1.63254  2.41364 0.832278, 2.47849
+Mid goal
+Traj opt iter num: 425
+[0m[ INFO] [1705236733.525214924]: Traj: 0.002110, yaw: 0.000069[0m
+[0m[ INFO] [1705236733.525223019]: Total time: 0.007844[0m
+[0m[ INFO] [1705236733.525231926]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00590066
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 33, 7, 11, 
+Other2: 31, 39, 1, 16, 17, 25, 3, 
+prev cost: 19.1818, -2.29923, 16.8826
+cur cost : 10.3302, 27.7936, 38.1238
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00519247
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 33, 7, 11, 
+Other2: 31, 39, 1, 16, 17, 25, 3, 
+prev cost: 19.1818, -2.31599, 16.8658
+cur cost : 10.3302, 27.7769, 38.1071
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00538955
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 33, 7, 11, 
+Other2: 31, 39, 1, 16, 17, 25, 3, 
+prev cost: 19.1818, -2.32645, 16.8553
+cur cost : 10.3302, 27.7664, 38.0966
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.0057682
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 33, 7, 11, 
+Other2: 31, 39, 1, 16, 17, 25, 3, 
+prev cost: 19.4014, -2.33747, 17.0639
+cur cost : 10.3591, 27.7554, 38.1145
+[0m[ INFO] [1705236733.721184593]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00534868
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 33, 7, 11, 
+Other2: 31, 39, 1, 16, 17, 25, 3, 
+prev cost: 19.1785, -2.34414, 16.8344
+cur cost : 10.1362, 27.7487, 37.8849
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00455219
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 33, 7, 11, 
+Other2: 31, 39, 1, 16, 17, 25, 3, 
+prev cost: 19.163, -2.39363, 16.7693
+cur cost : 10.1206, 27.6992, 37.8199
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.0051849
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 33, 7, 11, 
+Other2: 31, 39, 1, 16, 17, 25, 3, 
+prev cost: 19.1574, -2.39363, 16.7637
+cur cost : 10.115, 27.6992, 37.8143
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00590583
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 33, 7, 11, 
+Other2: 31, 39, 1, 16, 17, 25, 3, 
+prev cost: 19.15, -2.39363, 16.7563
+cur cost : 10.1076, 27.6992, 37.8069
+Frontier cost mat size: 12
+[0m[ INFO] [1705236733.928541694]: Drone 1: frontier t: 0.003706, viewpoint t: 0.002750, mat: 0.000756[0m
+[0m[ INFO] [1705236733.928562116]: Total t: 0.007250[0m
+[0m[ INFO] [1705236733.928596387]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00564858
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 33, 7, 11, 
+Other2: 31, 39, 1, 16, 17, 25, 3, 
+prev cost: 19.1394, -2.39363, 16.7458
+cur cost : 10.0971, 27.6992, 37.7963
+[0m[ INFO] [1705236733.938709035]: Find grid tour---------------[0m
+Allocated grid: 3, 7, 11, 24, 16, 17, 25, 33, 
+Grid tour: 24, 16, 17, 25, 33, 3, 7, 11, 
+[0m[ INFO] [1705236733.942574910]: Find frontier tour, 2 involved------------[0m
+[0m[ INFO] [1705236733.943340460]: Grid tour t: 0.003858, frontier tour t: 0.000766.[0m
+Local refine graph size: 1, 6, 1, 
+[0m[ INFO] [1705236733.943520791]: Local refine time: 0.000160[0m
+Next view: -1.56091  2.76002 0.841635, 2.82389
+Mid goal
+Traj opt iter num: 625
+[0m[ INFO] [1705236733.946889229]: Traj: 0.003204, yaw: 0.000135[0m
+[0m[ INFO] [1705236733.946907239]: Total time: 0.008199[0m
+[0m[ INFO] [1705236733.946920035]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00610157
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 33, 3, 7, 11, 
+Other2: 31, 39, 1, 24, 16, 17, 
+prev cost: 19.6715, -2.31828, 17.3532
+cur cost : 12.9614, 23.2449, 36.2063
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00529778
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 33, 3, 7, 11, 
+Other2: 31, 39, 1, 24, 16, 17, 
+prev cost: 19.6715, -2.33856, 17.3329
+cur cost : 12.9614, 23.2247, 36.186
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00541816
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 33, 3, 7, 11, 
+Other2: 31, 39, 1, 24, 16, 17, 
+prev cost: 19.6715, -2.35324, 17.3182
+cur cost : 12.9614, 23.21, 36.1713
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.0071911
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 33, 3, 7, 11, 
+Other2: 31, 39, 1, 24, 16, 17, 
+prev cost: 19.6715, -2.36302, 17.3084
+cur cost : 12.9614, 23.2002, 36.1616
+[0m[ INFO] [1705236734.139097483]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 4
+Pair Opt id: 41, 49, 48, 57, 56, 24, 11, 16, 3, 55, 38, 33, 7, 17, 46, 8, 25, 54, 
+Missed: 39, 
+Allocation time: 0.00771659
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 38, 8, 46, 54, 55, 56, 57, 48, 49, 41, 33, 
+Ego2  : 24, 33, 16, 17, 25, 3, 7, 41, 11, 
+Other2: 39, 48, 49, 57, 56, 55, 54, 46, 38, 8, 
+prev cost: 19.6536, 27.078, 46.7315
+cur cost : 28.7358, 30.1285, 58.8644
+
+Select: 2
+Pair Opt id: 0, 7, 33, 25, 4, 30, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00453798
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 30, 4, 0, 
+Ego2  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other2: 39, 30, 4, 0, 
+prev cost: 19.626, 2.40925, 22.0352
+cur cost : 19.626, 16.0414, 35.6674
+[0m[ INFO] [1705236734.278833737]: [FSM]: Drone 1 state: EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00636675
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 33, 3, 7, 11, 
+Other2: 31, 39, 1, 24, 16, 17, 
+prev cost: 19.6072, -2.4381, 17.1691
+cur cost : 12.8968, 23.1251, 36.022
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 39, 
+Allocation time: 0.00725462
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 33, 3, 7, 11, 
+Other2: 31, 39, 1, 24, 16, 17, 
+prev cost: 19.5534, -2.4381, 17.1153
+cur cost : 13.034, 23.1251, 36.1591
+Frontier cost mat size: 12
+[0m[ INFO] [1705236734.350791172]: Drone 1: frontier t: 0.005207, viewpoint t: 0.004616, mat: 0.001706[0m
+[0m[ INFO] [1705236734.350818414]: Total t: 0.011583[0m
+[0m[ INFO] [1705236734.350870408]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236734.350910607]: Find grid tour---------------[0m
+Allocated grid: 3, 7, 11, 24, 16, 17, 25, 33, 
+Grid tour: 24, 16, 17, 25, 33, 3, 7, 11, 
+[0m[ INFO] [1705236734.355770944]: Find frontier tour, 2 involved------------[0m
+[0m[ INFO] [1705236734.356766386]: Grid tour t: 0.004841, frontier tour t: 0.001008.[0m
+Local refine graph size: 1, 14, 1, 
+[0m[ INFO] [1705236734.357150058]: Local refine time: 0.000368[0m
+Next view: -1.85618  1.47692 0.813333, -2.96717
+Mid goal
+Traj opt iter num: 150
+[0m[ INFO] [1705236734.358399584]: Traj: 0.001133, yaw: 0.000093[0m
+[0m[ INFO] [1705236734.358412170]: Total time: 0.007503[0m
+[0m[ INFO] [1705236734.358423347]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.0043246
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 3, 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 
+prev cost: 19.3894, -2.3609, 17.0285
+cur cost : 18.1356, 6.11781, 24.2534
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.00448299
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 3, 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 
+prev cost: 19.3894, -2.37764, 17.0117
+cur cost : 18.1356, 6.10106, 24.2366
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.00473431
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 3, 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 
+prev cost: 19.3894, -2.3907, 16.9987
+cur cost : 18.1356, 6.08801, 24.2236
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.00439608
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 3, 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 
+prev cost: 19.3894, -2.40616, 16.9832
+cur cost : 18.1356, 6.07255, 24.2081
+[0m[ INFO] [1705236734.562933318]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.00600368
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 3, 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 
+prev cost: 19.3588, -2.54001, 16.8188
+cur cost : 18.1063, 5.9387, 24.045
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.00563361
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 24, 33, 7, 11, 
+Other2: 31, 1, 16, 17, 25, 3, 
+prev cost: 19.3366, -2.54001, 16.7966
+cur cost : 10.0175, 10.258, 20.2756
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.00594308
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 3, 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 
+prev cost: 19.297, -2.54001, 16.757
+cur cost : 18.0484, 5.9387, 23.9871
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.00425535
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 3, 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 
+prev cost: 18.9658, -2.54001, 16.4258
+cur cost : 17.9755, 5.9387, 23.9142
+Frontier cost mat size: 11
+[0m[ INFO] [1705236734.768292601]: Drone 1: frontier t: 0.003940, viewpoint t: 0.004367, mat: 0.001201[0m
+[0m[ INFO] [1705236734.768320660]: Total t: 0.009566[0m
+[0m[ INFO] [1705236734.768364708]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236734.793709754]: Find grid tour---------------[0m
+Allocated grid: 3, 7, 11, 24, 16, 17, 25, 33, 
+Grid tour: 24, 16, 17, 25, 33, 3, 7, 11, 
+[0m[ INFO] [1705236734.798452282]: Find frontier tour, 2 involved------------[0m
+[0m[ INFO] [1705236734.799502125]: Grid tour t: 0.004743, frontier tour t: 0.001047.[0m
+Local refine graph size: 1, 10, 1, 
+[0m[ INFO] [1705236734.800070609]: Local refine time: 0.000538[0m
+Next view: -2.06909  1.18527 0.842364, 2.96649
+Mid goal
+near end
+Traj opt iter num: 414
+[0m[ INFO] [1705236734.804572143]: Traj: 0.004360, yaw: 0.000099[0m
+[0m[ INFO] [1705236734.804590222]: Total time: 0.010896[0m
+[0m[ INFO] [1705236734.804599209]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.00540056
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 3, 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 
+prev cost: 18.6603, -2.46407, 16.1962
+cur cost : 17.9743, 5.99889, 23.9732
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.00421528
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 25, 3, 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 
+prev cost: 18.4164, -2.49307, 15.9233
+cur cost : 17.7179, 5.96989, 23.6878
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.00481106
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 25, 3, 
+prev cost: 26.2604, -2.52149, 23.7389
+cur cost : 19.9536, 11.8464, 31.7999
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.0035569
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 25, 3, 
+prev cost: 26.2604, -2.54335, 23.717
+cur cost : 19.9536, 11.8245, 31.7781
+
+Select: 3
+Pair Opt id: 1, 31, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 
+Allocation time: 0.00364771
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 31, 1, 
+Ego2  : 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 25, 3, 
+prev cost: 26.2604, -2.60442, 23.656
+cur cost : 19.9536, 12.012, 31.9655
+[0m[ INFO] [1705236735.001618820]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 31, 
+Allocation time: 0.00534982
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 1, 
+Ego2  : 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 25, 3, 
+prev cost: 26.2451, 12.6386, 38.8837
+cur cost : 19.9442, 21.7526, 41.6969
+
+Select: 3
+Pair Opt id: 1, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 31, 
+Allocation time: 0.00507722
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 1, 
+Ego2  : 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 25, 3, 
+prev cost: 26.1974, 12.6386, 38.836
+cur cost : 19.9202, 21.7526, 41.6729
+
+Select: 3
+Pair Opt id: 1, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 31, 
+Allocation time: 0.00380358
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 1, 
+Ego2  : 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 25, 3, 
+prev cost: 26.0822, 12.6386, 38.7208
+cur cost : 19.2875, 21.7526, 41.0401
+
+Select: 3
+Pair Opt id: 1, 7, 33, 25, 17, 3, 16, 11, 24, 
+Missed: 31, 
+Allocation time: 0.00485766
+Ego1  : 24, 16, 17, 25, 33, 3, 7, 11, 
+Other1: 1, 
+Ego2  : 33, 7, 11, 
+Other2: 31, 1, 24, 16, 17, 25, 3, 
+prev cost: 26.0039, 12.6386, 38.6425
+cur cost : 19.939, 21.7526, 41.6916
+Frontier cost mat size: 12
+[0m[ INFO] [1705236735.207963477]: Drone 1: frontier t: 0.004597, viewpoint t: 0.003675, mat: 0.001832[0m
+[0m[ INFO] [1705236735.207986805]: Total t: 0.010141[0m
+[0m[ INFO] [1705236735.208026036]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236735.208093873]: Find grid tour---------------[0m
+Allocated grid: 3, 7, 11, 24, 16, 17, 25, 33, 
+Grid tour: 25, 17, 16, 24, 33, 3, 7, 11, 
+[0m[ INFO] [1705236735.214927130]: Find frontier tour, 2 involved------------[0m
+[0m[ INFO] [1705236735.215754162]: Grid tour t: 0.006824, frontier tour t: 0.000824.[0m
+Local refine graph size: 1, 13, 1, 
+[0m[ INFO] [1705236735.216266151]: Local refine time: 0.000485[0m
+Next view: -2.93223  2.96702 0.907025, 1.76223
+Mid goal
+Traj opt iter num: 178
+[0m[ INFO] [1705236735.218525339]: Traj: 0.001984, yaw: 0.000188[0m
+[0m[ INFO] [1705236735.218571366]: Total time: 0.010478[0m
+[0m[ INFO] [1705236735.218584471]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 1, 7, 33, 11, 24, 3, 16, 17, 25, 
+Missed: 
+Allocation time: 0.00495784
+Ego1  : 25, 17, 16, 24, 33, 3, 7, 11, 
+Other1: 1, 
+Ego2  : 24, 25, 3, 17, 16, 1, 
+Other2: 33, 7, 11, 
+prev cost: 37.0725, 12.6231, 49.6956
+cur cost : 24.5909, 21.7222, 46.3132
+[0m[ INFO] [1705236735.279038869]: [FSM]: Drone 1 state: PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 0, 1, 4, 30, 17, 16, 3, 25, 24, 
+Missed: 57, 56, 55, 49, 48, 
+Allocation time: 0.00825587
+Ego1  : 24, 25, 3, 17, 16, 1, 
+Other1: 30, 4, 0, 
+Ego2  : 25, 17, 24, 16, 3, 
+Other2: 30, 1, 0, 4, 55, 56, 57, 49, 48, 
+prev cost: 19.3093, 2.41627, 21.7256
+cur cost : 15.8222, 31.6464, 47.4686
+[0m[ INFO] [1705236735.411255038]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 2
+Pair Opt id: 0, 1, 4, 30, 17, 16, 3, 25, 24, 
+Missed: 57, 56, 55, 49, 48, 
+Allocation time: 0.00705501
+Ego1  : 24, 25, 3, 17, 16, 1, 
+Other1: 30, 4, 0, 
+Ego2  : 25, 17, 24, 16, 3, 
+Other2: 30, 1, 0, 4, 55, 56, 57, 49, 48, 
+prev cost: 19.3093, 2.41627, 21.7256
+cur cost : 15.8222, 31.6464, 47.4686
+
+Select: 4
+Pair Opt id: 8, 54, 46, 1, 17, 16, 3, 38, 25, 24, 
+Missed: 
+Allocation time: 0.004494
+Ego1  : 24, 25, 3, 17, 16, 1, 
+Other1: 38, 46, 54, 8, 
+Ego2  : 24, 17, 25, 3, 16, 1, 
+Other2: 38, 46, 54, 8, 
+prev cost: 19.2605, 3.7484, 23.0089
+cur cost : 21.5469, 3.7484, 25.2953
+
+Select: 4
+Pair Opt id: 8, 54, 46, 1, 17, 16, 3, 38, 25, 24, 
+Missed: 
+Allocation time: 0.00478573
+Ego1  : 24, 25, 3, 17, 16, 1, 
+Other1: 38, 46, 54, 8, 
+Ego2  : 24, 17, 25, 3, 16, 1, 
+Other2: 38, 46, 54, 8, 
+prev cost: 19.1489, 3.7484, 22.8973
+cur cost : 21.4352, 3.7484, 25.1836
+Frontier cost mat size: 13
+[0m[ INFO] [1705236735.882447125]: Drone 1: frontier t: 0.040361, viewpoint t: 0.050148, mat: 0.017410[0m
+[0m[ INFO] [1705236735.882641799]: Total t: 0.108248[0m
+[0m[ INFO] [1705236735.882910301]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236736.118403108]: Find grid tour---------------[0m
+Allocated grid: 3, 1, 24, 25, 17, 16, 
+Grid tour: 24, 25, 3, 17, 16, 1, 
+[0m[ INFO] [1705236736.189713763]: Find frontier tour, 2 involved------------[0m
+[0m[ INFO] [1705236736.199954158]: Grid tour t: 0.071293, frontier tour t: 0.010260.[0m
+Local refine graph size: 1, 11, 1, 
+[0m[ INFO] [1705236736.203971745]: Local refine time: 0.003839[0m
+Next view: -2.56784   3.1188 0.907884, 2.03381
+Traj opt iter num: 51
+[0m[ INFO] [1705236736.212057175]: Traj: 0.006392, yaw: 0.001420[0m
+[0m[ INFO] [1705236736.212185510]: Total time: 0.093849[0m
+[0m[ INFO] [1705236736.212290991]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236736.485658903]: [FSM]: Drone 1 state: PUB_TRAJ[0m
+[0m[ INFO] [1705236736.485755692]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+Frontier cost mat size: 12
+[0m[ INFO] [1705236736.535466524]: Drone 1: frontier t: 0.005330, viewpoint t: 0.003716, mat: 0.001061[0m
+[0m[ INFO] [1705236736.535483697]: Total t: 0.010148[0m
+[0m[ INFO] [1705236736.535512998]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+
+Select: 4
+Pair Opt id: 8, 54, 46, 1, 17, 16, 3, 38, 25, 24, 
+Missed: 
+Allocation time: 0.00734831
+Ego1  : 24, 25, 3, 17, 16, 1, 
+Other1: 46, 54, 8, 38, 24, 
+Ego2  : 25, 17, 3, 16, 24, 1, 
+Other2: 46, 38, 54, 8, 
+prev cost: 25.3036, 16.237, 41.5406
+cur cost : 28.3259, 6.1807, 34.5066
+[0m[ INFO] [1705236736.563843248]: Find grid tour---------------[0m
+Allocated grid: 24, 17, 16, 18, 26, 19, 27, 14, 22, 15, 23, 
+Grid tour: 24, 26, 27, 19, 18, 17, 16, 15, 23, 22, 14, 
+[0m[ INFO] [1705236736.575179645]: Find frontier tour, 1 involved------------[0m
+[0m[ INFO] [1705236736.576133290]: Grid tour t: 0.011346, frontier tour t: 0.000957.[0m
+Local refine graph size: 1, 11, 1, 
+Next view: -3.06818  1.36896  0.90777, 3.12165
+Mid goal
+near end
+Traj opt iter num: 269
+[0m[ INFO] [1705236736.578584038]: Traj: 0.001697, yaw: 0.000088[0m
+[0m[ INFO] [1705236736.578594078]: Total time: 0.014775[0m
+[0m[ INFO] [1705236736.578605146]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 0, 1, 24, 16, 3, 4, 30, 17, 25, 
+Missed: 42, 35, 34, 27, 26, 43, 14, 15, 18, 19, 22, 23, 
+Allocation time: 0.0111558
+Ego1  : 25, 17, 3, 16, 24, 1, 
+Other1: 30, 4, 0, 
+Ego2  : 24, 1, 14, 22, 23, 15, 16, 25, 17, 18, 19, 3, 26, 27, 35, 43, 42, 34, 
+Other2: 30, 4, 0, 
+prev cost: 22.6048, 1.94362, 24.5485
+cur cost : 44.8943, 1.94362, 46.8379
+
+Select: 2
+Pair Opt id: 0, 1, 24, 16, 3, 4, 30, 17, 25, 
+Missed: 42, 35, 34, 27, 26, 43, 14, 15, 18, 19, 22, 23, 
+Allocation time: 0.02244
+Ego1  : 25, 17, 3, 16, 24, 1, 
+Other1: 30, 4, 0, 
+Ego2  : 24, 1, 14, 22, 23, 15, 16, 25, 17, 18, 19, 3, 26, 27, 35, 43, 42, 34, 
+Other2: 30, 4, 0, 
+prev cost: 28.5796, 1.91349, 30.4931
+cur cost : 44.8943, 1.91349, 46.8077
+
+Select: 2
+Pair Opt id: 0, 1, 24, 16, 3, 4, 30, 17, 25, 
+Missed: 27, 26, 14, 15, 18, 19, 22, 23, 
+Allocation time: 0.00703139
+Ego1  : 25, 17, 3, 16, 24, 1, 
+Other1: 30, 4, 0, 
+Ego2  : 24, 1, 23, 15, 16, 25, 17, 18, 19, 3, 26, 27, 
+Other2: 30, 4, 0, 22, 14, 
+prev cost: 22.6048, 1.86634, 24.4712
+cur cost : 30.8318, 8.30065, 39.1325
+[0m[ INFO] [1705236736.767263677]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 2
+Pair Opt id: 0, 28, 36, 1, 37, 24, 29, 16, 3, 17, 25, 
+Missed: 30, 27, 26, 4, 14, 15, 18, 19, 22, 23, 
+Allocation time: 0.0203262
+Ego1  : 25, 17, 3, 16, 24, 1, 
+Other1: 37, 36, 28, 29, 0, 
+Ego2  : 24, 1, 14, 22, 23, 15, 16, 25, 17, 18, 19, 3, 26, 27, 
+Other2: 29, 30, 37, 4, 36, 28, 0, 
+prev cost: 22.6054, 16.998, 39.6035
+cur cost : 35.4464, 10.3129, 45.7593
+
+Select: 2
+Pair Opt id: 0, 28, 36, 1, 37, 24, 29, 16, 3, 17, 25, 
+Missed: 30, 27, 26, 4, 14, 15, 18, 19, 22, 23, 
+Allocation time: 0.0123626
+Ego1  : 25, 17, 3, 16, 24, 1, 
+Other1: 37, 36, 28, 29, 0, 
+Ego2  : 24, 1, 14, 22, 23, 15, 16, 25, 17, 18, 19, 3, 26, 27, 
+Other2: 29, 30, 37, 4, 36, 28, 0, 
+prev cost: 22.4466, 16.998, 39.4446
+cur cost : 35.4234, 10.3129, 45.7363
+
+Select: 2
+Pair Opt id: 0, 28, 36, 1, 37, 24, 29, 16, 3, 17, 25, 
+Missed: 30, 27, 26, 4, 14, 15, 18, 19, 22, 23, 
+Allocation time: 0.0133932
+Ego1  : 25, 17, 3, 16, 24, 1, 
+Other1: 37, 36, 28, 29, 0, 
+Ego2  : 24, 1, 14, 22, 23, 15, 16, 25, 17, 18, 19, 3, 26, 27, 
+Other2: 29, 30, 37, 4, 36, 28, 0, 
+prev cost: 22.2301, 16.998, 39.2281
+cur cost : 35.3248, 10.3129, 45.6377
+
+Select: 2
+Pair Opt id: 0, 28, 36, 1, 37, 24, 29, 16, 3, 17, 25, 
+Missed: 30, 27, 26, 4, 14, 15, 18, 19, 22, 23, 
+Allocation time: 0.0109118
+Ego1  : 25, 17, 3, 16, 24, 1, 
+Other1: 37, 36, 28, 29, 0, 
+Ego2  : 24, 1, 14, 22, 23, 15, 16, 25, 17, 18, 19, 3, 26, 27, 
+Other2: 29, 30, 37, 4, 36, 28, 0, 
+prev cost: 22.2467, 16.9916, 39.2383
+cur cost : 35.3003, 10.305, 45.6053
+Frontier cost mat size: 13
+[0m[ INFO] [1705236736.981289678]: Drone 1: frontier t: 0.005453, viewpoint t: 0.007225, mat: 0.003366[0m
+[0m[ INFO] [1705236736.981310431]: Total t: 0.016082[0m
+[0m[ INFO] [1705236736.981351673]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236736.981497787]: Find grid tour---------------[0m
+Allocated grid: 17, 16, 18, 26, 19, 27, 14, 22, 15, 
+Grid tour: 17, 26, 27, 19, 18, 16, 15, 22, 14, 
+[0m[ INFO] [1705236736.991776417]: Find frontier tour, 1 involved------------[0m
+[0m[ INFO] [1705236736.993386116]: Grid tour t: 0.010271, frontier tour t: 0.001617.[0m
+Local refine graph size: 1, 10, 1, 
+Next view: -3.37225  1.59865 0.836318, -2.73204
+Mid goal
+near end
+Traj opt iter num: 117
+[0m[ INFO] [1705236736.995373889]: Traj: 0.001314, yaw: 0.000097[0m
+[0m[ INFO] [1705236736.995388144]: Total time: 0.013902[0m
+[0m[ INFO] [1705236736.995397406]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 17, 26, 27, 14, 19, 18, 16, 0, 29, 15, 28, 22, 37, 36, 
+Missed: 
+Allocation time: 0.00564587
+Ego1  : 17, 26, 27, 19, 18, 16, 15, 22, 14, 
+Other1: 37, 36, 28, 29, 0, 
+Ego2  : 16, 15, 17, 18, 19, 27, 26, 
+Other2: 22, 14, 0, 29, 28, 36, 37, 
+prev cost: 18.9485, 16.6178, 35.5664
+cur cost : 11.45, 21.4878, 32.9378
+
+Select: 3
+Pair Opt id: 39, 49, 57, 16, 42, 15, 17, 43, 18, 48, 19, 56, 27, 55, 26, 33, 34, 35, 11, 
+Missed: 
+Allocation time: 0.0115128
+Ego1  : 16, 15, 17, 18, 19, 27, 26, 
+Other1: 33, 34, 35, 43, 42, 11, 57, 49, 48, 56, 55, 39, 
+Ego2  : 16, 15, 17, 18, 19, 27, 26, 
+Other2: 33, 34, 35, 43, 42, 11, 49, 57, 56, 55, 48, 39, 
+prev cost: 11.3077, 29.9826, 41.2903
+cur cost : 11.3077, 32.4492, 43.7569
+
+Select: 3
+Pair Opt id: 39, 49, 57, 16, 42, 15, 17, 43, 18, 48, 19, 56, 27, 55, 26, 33, 34, 35, 11, 
+Missed: 
+Allocation time: 0.0108949
+Ego1  : 16, 15, 17, 18, 19, 27, 26, 
+Other1: 33, 34, 35, 43, 42, 11, 57, 49, 48, 56, 55, 39, 
+Ego2  : 16, 15, 17, 18, 19, 26, 27, 35, 43, 
+Other2: 33, 34, 42, 11, 49, 57, 56, 55, 48, 39, 
+prev cost: 11.3077, 29.9826, 41.2903
+cur cost : 16.6685, 27.7064, 44.3749
+[0m[ INFO] [1705236737.205813402]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 49, 57, 16, 42, 15, 17, 43, 18, 48, 19, 56, 27, 55, 26, 33, 34, 35, 11, 
+Missed: 
+Allocation time: 0.00890114
+Ego1  : 16, 15, 17, 18, 19, 27, 26, 
+Other1: 33, 34, 35, 43, 42, 11, 57, 49, 48, 56, 55, 
+Ego2  : 16, 15, 17, 18, 19, 27, 26, 
+Other2: 33, 34, 35, 43, 42, 11, 57, 49, 48, 56, 55, 
+prev cost: 11.2956, 23.5007, 34.7963
+cur cost : 11.2956, 23.5007, 34.7963
+
+Select: 4
+Pair Opt id: 38, 8, 46, 26, 27, 19, 18, 17, 54, 15, 16, 
+Missed: 
+Allocation time: 0.0038011
+Ego1  : 16, 15, 17, 18, 19, 27, 26, 
+Other1: 46, 54, 8, 38, 
+Ego2  : 16, 15, 17, 18, 19, 27, 26, 
+Other2: 46, 38, 54, 8, 
+prev cost: 11.6518, 7.57843, 19.2303
+cur cost : 11.6518, 6.56372, 18.2156
+Frontier cost mat size: 15
+[0m[ INFO] [1705236737.408451317]: Drone 1: frontier t: 0.005354, viewpoint t: 0.005044, mat: 0.002998[0m
+[0m[ INFO] [1705236737.408468545]: Total t: 0.013431[0m
+[0m[ INFO] [1705236737.408494875]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236737.408551299]: Find grid tour---------------[0m
+Allocated grid: 16, 15, 17, 18, 19, 27, 26, 
+Grid tour: 17, 26, 27, 19, 18, 16, 15, 
+[0m[ INFO] [1705236737.413326765]: Find frontier tour, 0 involved------------[0m
+Next view: -4.21099  5.12174 0.848794, 1.89554
+Mid goal
+Traj opt iter num: 107
+[0m[ INFO] [1705236737.415945712]: Traj: 0.001691, yaw: 0.000122[0m
+[0m[ INFO] [1705236737.415970613]: Total time: 0.007418[0m
+[0m[ INFO] [1705236737.415983612]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236737.491520142]: [FSM]: Drone 1 state: PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 14, 17, 26, 27, 19, 18, 16, 0, 29, 15, 28, 37, 36, 22, 
+Missed: 
+Allocation time: 0.00563667
+Ego1  : 17, 26, 27, 19, 18, 16, 15, 
+Other1: 29, 37, 36, 28, 0, 22, 14, 
+Ego2  : 16, 18, 17, 26, 27, 19, 
+Other2: 37, 36, 28, 29, 0, 14, 22, 15, 
+prev cost: 12.6351, 12.0402, 24.6753
+cur cost : 5.87728, 16.4247, 22.302
+[0m[ INFO] [1705236737.611581180]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 3
+Pair Opt id: 49, 16, 42, 18, 57, 17, 43, 55, 26, 56, 27, 48, 19, 33, 34, 35, 11, 
+Missed: 
+Allocation time: 0.0124111
+Ego1  : 16, 18, 17, 26, 27, 19, 
+Other1: 33, 34, 35, 43, 42, 11, 57, 49, 48, 56, 55, 
+Ego2  : 16, 18, 19, 17, 26, 27, 35, 43, 
+Other2: 33, 34, 42, 11, 57, 49, 48, 56, 55, 
+prev cost: 6.34936, 23.4726, 29.822
+cur cost : 13.7436, 18.6975, 32.4411
+Frontier cost mat size: 14
+[0m[ INFO] [1705236737.824665635]: Drone 1: frontier t: 0.005626, viewpoint t: 0.004899, mat: 0.002489[0m
+[0m[ INFO] [1705236737.824686698]: Total t: 0.013063[0m
+[0m[ INFO] [1705236737.824726291]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236737.824758775]: Find grid tour---------------[0m
+Allocated grid: 16, 18, 17, 26, 27, 19, 
+Grid tour: 16, 17, 26, 27, 19, 18, 
+[0m[ INFO] [1705236737.828176804]: Find frontier tour, 0 involved------------[0m
+Next view: -3.52347 -1.22469 0.806633, -2.23532
+Mid goal
+Traj opt iter num: 215
+[0m[ INFO] [1705236737.836336361]: Traj: 0.007280, yaw: 0.000115[0m
+[0m[ INFO] [1705236737.836357828]: Total time: 0.011600[0m
+[0m[ INFO] [1705236737.836367580]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 49, 16, 42, 17, 43, 55, 26, 56, 27, 48, 19, 18, 57, 33, 34, 35, 11, 
+Missed: 
+Allocation time: 0.00725327
+Ego1  : 16, 17, 26, 27, 19, 18, 
+Other1: 33, 34, 35, 43, 42, 11, 57, 49, 48, 56, 55, 
+Ego2  : 16, 18, 17, 26, 27, 19, 
+Other2: 33, 34, 35, 43, 42, 11, 57, 49, 48, 56, 55, 
+prev cost: 8.17196, 23.8826, 32.0546
+cur cost : 6.2739, 23.8826, 30.1565
+
+Select: 4
+Pair Opt id: 38, 8, 54, 46, 19, 27, 26, 17, 18, 16, 
+Missed: 
+Allocation time: 0.00372026
+Ego1  : 16, 18, 17, 26, 27, 19, 
+Other1: 46, 54, 8, 38, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 46, 38, 54, 8, 
+prev cost: 6.04056, 8.04676, 14.0873
+cur cost : 6.63744, 6.85675, 13.4942
+[0m[ INFO] [1705236738.031500129]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+collision at: -3.1235 2.38898 1.09586
+[0m[ INFO] [1705236738.038220456]: [safetyCallback]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+Mid goal
+Traj opt iter num: 189
+[0m[ INFO] [1705236738.050295929]: Traj: 0.008681, yaw: 0.000129[0m
+[0m[ INFO] [1705236738.050333326]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 15, 16, 17, 18, 19, 27, 14, 26, 29, 0, 37, 36, 28, 22, 
+Missed: 
+Allocation time: 0.0068957
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 37, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 18, 17, 26, 27, 19, 
+Other2: 37, 36, 28, 29, 0, 22, 14, 15, 
+prev cost: 6.58917, 15.8175, 22.4067
+cur cost : 5.99228, 22.4846, 28.4769
+
+Select: 2
+Pair Opt id: 15, 16, 17, 18, 19, 27, 14, 26, 29, 0, 37, 36, 28, 22, 
+Missed: 
+Allocation time: 0.00761686
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 37, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 18, 17, 26, 27, 19, 
+Other2: 37, 36, 28, 29, 0, 22, 14, 15, 
+prev cost: 6.58917, 15.8175, 22.4067
+cur cost : 5.99228, 22.4846, 28.4769
+
+Select: 2
+Pair Opt id: 15, 16, 17, 18, 19, 27, 14, 26, 29, 0, 37, 36, 28, 22, 
+Missed: 
+Allocation time: 0.00503277
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 37, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 18, 17, 26, 27, 19, 
+Other2: 37, 36, 28, 29, 0, 22, 14, 15, 
+prev cost: 6.58917, 15.8175, 22.4067
+cur cost : 5.99228, 22.4846, 28.4769
+
+Select: 2
+Pair Opt id: 15, 16, 17, 18, 19, 27, 14, 26, 29, 0, 37, 36, 28, 22, 
+Missed: 
+Allocation time: 0.00545588
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 37, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 18, 17, 26, 27, 19, 
+Other2: 37, 36, 28, 29, 0, 22, 14, 15, 
+prev cost: 6.58917, 15.8143, 22.4034
+cur cost : 5.99228, 22.4842, 28.4765
+[0m[ INFO] [1705236738.247644609]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 2
+Pair Opt id: 15, 16, 17, 18, 19, 27, 14, 26, 29, 0, 37, 36, 28, 22, 
+Missed: 
+Allocation time: 0.00531885
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 37, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 18, 17, 26, 27, 19, 
+Other2: 37, 36, 28, 29, 0, 22, 14, 15, 
+prev cost: 6.57902, 15.7439, 22.3229
+cur cost : 5.98214, 22.4816, 28.4638
+
+Select: 2
+Pair Opt id: 15, 16, 17, 18, 19, 27, 14, 26, 29, 0, 37, 36, 28, 22, 
+Missed: 
+Allocation time: 0.00439993
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 37, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 18, 17, 26, 27, 19, 
+Other2: 37, 36, 28, 29, 0, 22, 14, 15, 
+prev cost: 6.56943, 15.6214, 22.1909
+cur cost : 5.97255, 22.0672, 28.0397
+
+Select: 2
+Pair Opt id: 15, 16, 17, 18, 19, 27, 14, 26, 29, 0, 37, 36, 28, 22, 
+Missed: 
+Allocation time: 0.00727193
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 37, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 18, 17, 26, 27, 19, 
+Other2: 37, 36, 28, 29, 0, 22, 14, 15, 
+prev cost: 6.55924, 15.5612, 22.1204
+cur cost : 5.96236, 22.0278, 27.9901
+
+Select: 2
+Pair Opt id: 15, 16, 17, 18, 19, 27, 14, 26, 29, 0, 37, 36, 28, 22, 
+Missed: 
+Allocation time: 0.00581507
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 37, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 18, 17, 26, 27, 19, 
+Other2: 37, 36, 28, 29, 0, 22, 14, 15, 
+prev cost: 6.54828, 15.502, 22.0503
+cur cost : 5.95139, 21.8498, 27.8012
+Frontier cost mat size: 14
+[0m[ INFO] [1705236738.465128196]: Drone 1: frontier t: 0.006677, viewpoint t: 0.004977, mat: 0.004045[0m
+[0m[ INFO] [1705236738.465181933]: Total t: 0.015811[0m
+[0m[ INFO] [1705236738.465279055]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236738.474874812]: Find grid tour---------------[0m
+Allocated grid: 16, 17, 18, 19, 27, 26, 
+Grid tour: 16, 17, 18, 19, 27, 26, 
+[0m[ INFO] [1705236738.480269377]: Find frontier tour, 0 involved------------[0m
+Next view: -3.52347 -1.22469 0.806633, -2.23532
+Mid goal
+Traj opt iter num: 99
+[0m[ INFO] [1705236738.495304301]: Traj: 0.013663, yaw: 0.000095[0m
+[0m[ INFO] [1705236738.495323810]: Total time: 0.020459[0m
+[0m[ INFO] [1705236738.495332550]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 36, 0, 26, 14, 27, 19, 18, 17, 29, 16, 
+Missed: 
+Allocation time: 0.00584331
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 29, 22, 15, 14, 0, 28, 36, 
+prev cost: 6.4562, 24.7105, 31.1667
+cur cost : 6.4562, 28.7919, 35.2481
+[0m[ INFO] [1705236738.507245464]: [FSM]: Drone 1 state: PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 36, 0, 26, 14, 27, 19, 18, 17, 29, 16, 
+Missed: 
+Allocation time: 0.00538448
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 29, 22, 15, 14, 0, 28, 36, 
+prev cost: 6.4562, 24.7105, 31.1667
+cur cost : 6.4562, 28.7919, 35.2481
+
+Select: 2
+Pair Opt id: 22, 15, 28, 36, 0, 26, 14, 27, 19, 18, 17, 29, 16, 
+Missed: 
+Allocation time: 0.00728339
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 29, 22, 15, 14, 0, 28, 36, 
+prev cost: 6.4562, 24.7105, 31.1667
+cur cost : 6.4562, 28.7919, 35.2481
+
+Select: 2
+Pair Opt id: 22, 15, 28, 36, 0, 26, 14, 27, 19, 18, 17, 29, 16, 
+Missed: 
+Allocation time: 0.00541724
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 29, 22, 15, 14, 0, 28, 36, 
+prev cost: 6.4562, 24.7105, 31.1667
+cur cost : 6.4562, 28.7919, 35.2481
+[0m[ INFO] [1705236738.690608528]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 36, 0, 26, 14, 27, 19, 18, 17, 29, 16, 
+Missed: 
+Allocation time: 0.00859006
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 29, 22, 15, 14, 0, 28, 36, 
+prev cost: 6.45046, 24.6233, 31.0738
+cur cost : 6.45046, 28.7047, 35.1552
+
+Select: 2
+Pair Opt id: 22, 15, 28, 36, 0, 26, 14, 27, 19, 18, 17, 29, 16, 
+Missed: 
+Allocation time: 0.0063332
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 28, 0, 36, 29, 22, 14, 15, 
+prev cost: 6.4389, 24.4507, 30.8896
+cur cost : 6.4389, 35.0183, 41.4572
+
+Select: 2
+Pair Opt id: 22, 15, 28, 36, 0, 26, 14, 27, 19, 18, 17, 29, 16, 
+Missed: 
+Allocation time: 0.00544232
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 28, 0, 36, 29, 22, 14, 15, 
+prev cost: 6.42847, 24.2474, 30.6759
+cur cost : 6.42847, 34.9679, 41.3964
+
+Select: 2
+Pair Opt id: 22, 15, 28, 36, 0, 26, 14, 27, 19, 18, 17, 29, 16, 
+Missed: 
+Allocation time: 0.00744152
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 36, 0, 28, 29, 22, 14, 15, 
+prev cost: 6.42218, 23.7857, 30.2078
+cur cost : 6.42218, 33.3056, 39.7278
+Frontier cost mat size: 15
+[0m[ INFO] [1705236738.907264040]: Drone 1: frontier t: 0.006802, viewpoint t: 0.004916, mat: 0.003724[0m
+[0m[ INFO] [1705236738.907288444]: Total t: 0.015482[0m
+[0m[ INFO] [1705236738.907333034]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 36, 0, 26, 14, 27, 19, 18, 17, 29, 16, 
+Missed: 
+Allocation time: 0.00720755
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 29, 36, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 36, 0, 28, 29, 22, 14, 15, 
+prev cost: 6.20831, 24.0066, 30.2149
+cur cost : 6.20831, 32.7374, 38.9457
+[0m[ INFO] [1705236738.923735878]: Find grid tour---------------[0m
+Allocated grid: 16, 17, 18, 19, 27, 26, 
+Grid tour: 16, 17, 18, 19, 27, 26, 
+[0m[ INFO] [1705236738.927047542]: Find frontier tour, 0 involved------------[0m
+Next view: -3.52347 -1.22469 0.806633, -2.23532
+Mid goal
+Traj opt iter num: 217
+[0m[ INFO] [1705236738.933531804]: Traj: 0.005287, yaw: 0.000108[0m
+[0m[ INFO] [1705236738.933554088]: Total time: 0.009822[0m
+[0m[ INFO] [1705236738.933567435]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 49, 16, 42, 17, 43, 18, 57, 48, 19, 56, 27, 55, 26, 33, 34, 35, 11, 
+Missed: 36, 37, 
+Allocation time: 0.00907892
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 33, 34, 35, 43, 42, 11, 57, 49, 48, 56, 55, 
+Ego2  : 16, 18, 17, 26, 27, 19, 
+Other2: 33, 34, 35, 43, 42, 11, 57, 49, 48, 56, 55, 37, 36, 
+prev cost: 6.07023, 22.5555, 28.6257
+cur cost : 5.47329, 34.5629, 40.0361
+
+Select: 3
+Pair Opt id: 49, 16, 42, 17, 43, 18, 57, 48, 19, 56, 27, 55, 26, 33, 34, 35, 11, 
+Missed: 37, 
+Allocation time: 0.00652564
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 33, 34, 35, 43, 42, 11, 57, 49, 48, 56, 55, 
+Ego2  : 16, 18, 17, 26, 27, 19, 
+Other2: 33, 34, 35, 43, 42, 11, 57, 49, 48, 56, 55, 37, 
+prev cost: 6.07023, 22.5555, 28.6257
+cur cost : 5.47329, 32.0979, 37.5712
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.00472398
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 6.07023, 9.62973, 15.7
+cur cost : 6.07023, 23.6507, 29.7209
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.00711558
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 6.07023, 9.62973, 15.7
+cur cost : 6.07023, 23.6507, 29.7209
+[0m[ INFO] [1705236739.133740601]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+collision at: -3.61101  1.75604   1.0781
+[0m[ INFO] [1705236739.138242422]: [safetyCallback]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.00578857
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 6.06948, 9.52038, 15.5899
+cur cost : 6.06948, 23.221, 29.2905
+Mid goal
+Traj opt iter num: 292
+[0m[ INFO] [1705236739.151683543]: Traj: 0.002603, yaw: 0.000089[0m
+[0m[ INFO] [1705236739.151696689]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.00459153
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 5.65107, 9.46442, 15.1155
+cur cost : 5.65107, 23.198, 28.8491
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.00498863
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 5.65107, 9.38555, 15.0366
+cur cost : 5.65107, 23.1897, 28.8408
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.0059108
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 5.65107, 9.32644, 14.9775
+cur cost : 5.65107, 23.1972, 28.8483
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.00649128
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 5.65107, 8.98752, 14.6386
+cur cost : 5.65107, 22.7242, 28.3753
+[0m[ INFO] [1705236739.350843164]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+collision at: -3.60679  1.76096  1.07577
+[0m[ INFO] [1705236739.388504399]: [safetyCallback]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.00511593
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 5.5816, 8.98752, 14.5691
+cur cost : 5.5816, 22.7242, 28.3058
+Mid goal
+open set empty, no path!
+use node num: 2
+iter num: 2
+[0m[ INFO] [1705236739.398294704]: search 1 fail[0m
+open set empty, no path!
+use node num: 1
+iter num: 1
+[Kino replan]: Can't find path.
+[0m[ INFO] [1705236739.403672742]: Find grid tour---------------[0m
+Allocated grid: 16, 17, 18, 19, 27, 26, 
+Grid tour: 16, 17, 18, 19, 27, 26, 
+[0m[ INFO] [1705236739.408759485]: Find frontier tour, 0 involved------------[0m
+Next view: -3.52347 -1.22469 0.806633, -2.23532
+Mid goal
+Traj opt iter num: 200
+[0m[ INFO] [1705236739.412955110]: Traj: 0.002895, yaw: 0.000108[0m
+[0m[ INFO] [1705236739.412977862]: Total time: 0.009329[0m
+[0m[ INFO] [1705236739.412991394]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.0053235
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 5.65953, 9.4245, 15.084
+cur cost : 5.65953, 23.0287, 28.6882
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.00428498
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 13.7697, 9.4245, 23.1942
+cur cost : 13.7697, 23.0287, 36.7984
+[0m[ INFO] [1705236739.513674120]: [FSM]: Drone 1 state: PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.00431246
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 13.4595, 9.34924, 22.8088
+cur cost : 13.4595, 22.834, 36.2936
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.00536101
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 13.4027, 9.29802, 22.7007
+cur cost : 13.4027, 22.8397, 36.2424
+[0m[ INFO] [1705236739.603779305]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+collision at: -3.61094  1.71032  1.07322
+[0m[ INFO] [1705236739.638141477]: [safetyCallback]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.00501944
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 13.6589, 9.21455, 22.8734
+cur cost : 13.6589, 22.8615, 36.5204
+Mid goal
+Traj opt iter num: 132
+[0m[ INFO] [1705236739.649504047]: Traj: 0.002033, yaw: 0.000067[0m
+[0m[ INFO] [1705236739.649517717]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 
+Allocation time: 0.00665345
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 13.3315, 9.15684, 22.4883
+cur cost : 13.3315, 22.7405, 36.072
+
+Select: 2
+Pair Opt id: 22, 15, 28, 37, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 
+Allocation time: 0.00476431
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 37, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 13.3315, 11.4774, 24.8089
+cur cost : 13.3315, 17.4479, 30.7794
+
+Select: 2
+Pair Opt id: 22, 15, 28, 37, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 
+Allocation time: 0.00490054
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 37, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 13.3315, 11.4774, 24.8089
+cur cost : 13.3315, 17.4479, 30.7794
+
+Select: 2
+Pair Opt id: 22, 15, 28, 37, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 
+Allocation time: 0.00581277
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 37, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 13.3315, 11.4774, 24.8089
+cur cost : 13.3315, 17.4479, 30.7794
+[0m[ INFO] [1705236739.848509193]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+collision at: -3.6079 1.71768 1.07385
+[0m[ INFO] [1705236739.888972128]: [safetyCallback]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 37, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 
+Allocation time: 0.00837451
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 37, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 13.7011, 11.4774, 25.1785
+cur cost : 13.7011, 17.4479, 31.149
+Mid goal
+nlopt failure
+Traj opt iter num: 130
+[0m[ INFO] [1705236739.908199388]: Traj: 0.004164, yaw: 0.000189[0m
+[0m[ INFO] [1705236739.908237251]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 37, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 
+Allocation time: 0.00530115
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 37, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 12.7982, 11.4818, 24.28
+cur cost : 12.7982, 17.4523, 30.2505
+
+Select: 2
+Pair Opt id: 22, 15, 28, 37, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 
+Allocation time: 0.00581004
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 37, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 12.7982, 11.5008, 24.299
+cur cost : 12.7982, 17.4713, 30.2695
+
+Select: 2
+Pair Opt id: 22, 15, 28, 37, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 
+Allocation time: 0.00627511
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 37, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 12.7982, 11.5313, 24.3294
+cur cost : 12.7982, 17.5018, 30.2999
+
+Select: 2
+Pair Opt id: 22, 15, 28, 37, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 
+Allocation time: 0.008141
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 37, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 12.7982, 11.4009, 24.199
+cur cost : 12.7982, 17.3713, 30.1695
+[0m[ INFO] [1705236740.107382577]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 37, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 
+Allocation time: 0.00510686
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 37, 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 37, 28, 0, 22, 14, 15, 
+prev cost: 13.102, 11.4046, 24.5066
+cur cost : 13.102, 17.3751, 30.4771
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 8, 
+Allocation time: 0.00833826
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 28, 0, 14, 15, 22, 37, 8, 
+prev cost: 13.0454, 8.01347, 21.0589
+cur cost : 13.0454, 27.2778, 40.3232
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 8, 
+Allocation time: 0.00543727
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 28, 0, 14, 15, 22, 37, 8, 
+prev cost: 12.7568, 8.01347, 20.7702
+cur cost : 12.7568, 27.2778, 40.0346
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 16, 
+Missed: 37, 8, 
+Allocation time: 0.0127039
+Ego1  : 16, 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 16, 17, 18, 19, 27, 26, 
+Other2: 28, 0, 14, 15, 22, 37, 8, 
+prev cost: 12.6353, 8.01347, 20.6488
+cur cost : 12.6353, 27.2778, 39.9131
+Frontier cost mat size: 16
+[0m[ INFO] [1705236740.331362194]: Drone 1: frontier t: 0.008218, viewpoint t: 0.007914, mat: 0.005839[0m
+[0m[ INFO] [1705236740.331379646]: Total t: 0.022013[0m
+[0m[ INFO] [1705236740.331408611]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236740.331481774]: Find grid tour---------------[0m
+Allocated grid: 17, 18, 19, 27, 26, 
+Grid tour: 17, 18, 19, 27, 26, 
+[0m[ INFO] [1705236740.335037193]: Find frontier tour, 0 involved------------[0m
+Next view: -4.18199  5.15212 0.856897, 1.91244
+Mid goal
+Traj opt iter num: 199
+[0m[ INFO] [1705236740.682560735]: Traj: 0.346155, yaw: 0.000150[0m
+[0m[ INFO] [1705236740.682591483]: Total time: 0.351110[0m
+[0m[ INFO] [1705236740.682622268]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 3
+Pair Opt id: 17, 43, 18, 57, 48, 19, 56, 27, 55, 26, 33, 34, 35, 42, 11, 49, 
+Missed: 
+Allocation time: 0.00693146
+Ego1  : 17, 18, 19, 27, 26, 
+Other1: 33, 34, 35, 43, 42, 11, 57, 49, 48, 56, 55, 
+Ego2  : 17, 18, 19, 27, 26, 35, 43, 
+Other2: 33, 34, 42, 11, 57, 49, 48, 56, 55, 
+prev cost: 3.24619, 22.3714, 25.6176
+cur cost : 8.63203, 17.4978, 26.1298
+[0m[ INFO] [1705236740.728521144]: [FSM]: Drone 1 state: PUB_TRAJ[0m
+[0m[ INFO] [1705236740.728611277]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 
+Missed: 
+Allocation time: 0.00541878
+Ego1  : 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 17, 18, 19, 27, 26, 
+Other2: 28, 0, 22, 14, 15, 
+prev cost: 3.41222, 6.90002, 10.3122
+cur cost : 3.41222, 12.8129, 16.2251
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 
+Missed: 
+Allocation time: 0.00483196
+Ego1  : 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 17, 18, 19, 27, 26, 
+Other2: 28, 0, 22, 14, 15, 
+prev cost: 3.46293, 6.90002, 10.363
+cur cost : 3.46293, 12.8129, 16.2758
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 
+Missed: 
+Allocation time: 0.00373772
+Ego1  : 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 17, 18, 19, 27, 26, 
+Other2: 28, 0, 22, 14, 15, 
+prev cost: 3.49808, 7.07417, 10.5722
+cur cost : 3.49808, 12.8113, 16.3093
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 
+Missed: 
+Allocation time: 0.00345659
+Ego1  : 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 17, 18, 19, 27, 26, 
+Other2: 28, 0, 22, 14, 15, 
+prev cost: 3.54206, 7.00802, 10.5501
+cur cost : 3.54206, 12.7451, 16.2872
+Frontier cost mat size: 14
+[0m[ INFO] [1705236740.902018594]: Drone 1: frontier t: 0.007114, viewpoint t: 0.006531, mat: 0.003065[0m
+[0m[ INFO] [1705236740.902034932]: Total t: 0.016739[0m
+[0m[ INFO] [1705236740.902080820]: [FSM]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 15, 28, 0, 26, 14, 27, 19, 18, 17, 
+Missed: 
+Allocation time: 0.00458257
+Ego1  : 17, 18, 19, 27, 26, 
+Other1: 28, 0, 14, 22, 15, 
+Ego2  : 17, 18, 19, 27, 26, 
+Other2: 28, 0, 22, 14, 15, 
+prev cost: 3.59745, 7.00802, 10.6055
+cur cost : 3.59745, 12.7451, 16.3426
+[0m[ INFO] [1705236740.910944111]: Find grid tour---------------[0m
+Allocated grid: 17, 18, 19, 27, 26, 
+Grid tour: 17, 18, 19, 27, 26, 
+[0m[ INFO] [1705236740.913604117]: Find frontier tour, 0 involved------------[0m
+Next view: -4.18199  5.15212 0.856897, 1.91244
+Mid goal
+Traj opt iter num: 188
+start yaw: -2.00937, 1.91244
+[0m[ INFO] [1705236741.439355717]: Traj: 0.524580, yaw: 0.000109[0m
+[0m[ INFO] [1705236741.439375644]: Total time: 0.528432[0m
+[0m[ INFO] [1705236741.439394920]: [FSM]: Drone 1 from PLAN_TRAJ to PUB_TRAJ[0m
+
+Select: 2
+Pair Opt id: 22, 28, 0, 26, 14, 27, 19, 18, 17, 
+Missed: 
+Allocation time: 0.00451292
+Ego1  : 17, 18, 19, 27, 26, 
+Other1: 28, 0, 22, 14, 
+Ego2  : 17, 18, 19, 27, 26, 
+Other2: 28, 0, 22, 14, 
+prev cost: 3.76376, 1.90955, 5.67331
+cur cost : 3.76376, 1.90955, 5.67331
+[0m[ INFO] [1705236741.484129103]: [FSM]: Drone 1 from PUB_TRAJ to EXEC_TRAJ[0m
+collision at: -2.99347  2.39285 0.880117
+[0m[ INFO] [1705236741.486489603]: [safetyCallback]: Drone 1 from EXEC_TRAJ to PLAN_TRAJ[0m
+Mid goal
+Traj opt iter num: 184
+des manager

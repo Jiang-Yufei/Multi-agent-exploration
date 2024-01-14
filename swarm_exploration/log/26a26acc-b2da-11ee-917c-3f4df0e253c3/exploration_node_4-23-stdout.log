@@ -1,0 +1,467 @@
+hit: 0.619039, miss: -0.619039, min: -1.99243, max: 2.19722, thresh: 1.38629
+origin_: -10 -10  -1
+map size:  20  20 3.5
+origin_: -10 -10  -1
+map size:  20  20 3.5
+origin_: -10 -10  -1
+map size:  20  20 3.5
+data size: 12
+grid num: 3 4 1
+resolution: 4.66667       5     1.7
+data size: 48
+grid num: 6 8 1
+resolution: 2.33333     2.5     1.7
+origin_: -10 -10  -1
+map size:  20  20 3.5
+[0m[ INFO] [1705236056.281847559]: [FSM]: Drone 4 state: INIT[0m
+[0m[ INFO] [1705236056.314790791]: id=3[0m
+[0m[ INFO] [1705236056.314813676]: , complexity=0.751065[0m
+[0m[ INFO] [1705236056.440336576]: id=1[0m
+[0m[ INFO] [1705236056.440362727]: , complexity=0.908422[0m
+[0m[ INFO] [1705236056.466175857]: id=2[0m
+[0m[ INFO] [1705236056.466198135]: , complexity=0.908422[0m
+[0m[ INFO] [1705236056.643418984]: id=1[0m
+[0m[ INFO] [1705236056.643448607]: , complexity=0.751065[0m
+[0m[ INFO] [1705236056.668256601]: id=2[0m
+[0m[ INFO] [1705236056.668284947]: , complexity=0.908422[0m
+[0m[ INFO] [1705236056.694013915]: id=3[0m
+[0m[ INFO] [1705236056.694033553]: , complexity=0.751065[0m
+[0m[ INFO] [1705236056.840564435]: id=1[0m
+[0m[ INFO] [1705236056.840588054]: , complexity=0.751065[0m
+[0m[ INFO] [1705236056.865923546]: id=2[0m
+[0m[ INFO] [1705236056.865949037]: , complexity=0.908422[0m
+[0m[ INFO] [1705236057.041963776]: id=1[0m
+[0m[ INFO] [1705236057.042009895]: , complexity=0.908422[0m
+[0m[ INFO] [1705236057.065140442]: id=2[0m
+[0m[ INFO] [1705236057.065169747]: , complexity=0.908422[0m
+[0m[ INFO] [1705236057.240028439]: id=1[0m
+[0m[ INFO] [1705236057.240054542]: , complexity=0.908422[0m
+[0m[ INFO] [1705236057.265814469]: id=2[0m
+[0m[ INFO] [1705236057.265832906]: , complexity=0.908422[0m
+[0m[ INFO] [1705236057.292999848]: [FSM]: Drone 4 state: INIT[0m
+[0m[ INFO] [1705236057.440089720]: id=1[0m
+[0m[ INFO] [1705236057.440114590]: , complexity=0.908422[0m
+[0m[ INFO] [1705236057.464293031]: id=2[0m
+[0m[ INFO] [1705236057.464317243]: , complexity=0.908422[0m
+[0m[ INFO] [1705236057.640831648]: id=1[0m
+[0m[ INFO] [1705236057.640857359]: , complexity=0.908422[0m
+[0m[ INFO] [1705236057.666474415]: id=2[0m
+[0m[ INFO] [1705236057.666502143]: , complexity=0.908422[0m
+[0m[ INFO] [1705236057.843075469]: id=1[0m
+[0m[ INFO] [1705236057.843116836]: , complexity=0.908422[0m
+[0m[ INFO] [1705236057.864774316]: id=2[0m
+[0m[ INFO] [1705236057.864813446]: , complexity=0.908422[0m
+[0m[ INFO] [1705236057.894610335]: id=3[0m
+[0m[ INFO] [1705236057.894631323]: , complexity=0.751065[0m
+[0m[ INFO] [1705236058.039203623]: id=1[0m
+[0m[ INFO] [1705236058.039225178]: , complexity=0.908422[0m
+[0m[ INFO] [1705236058.066470538]: id=2[0m
+[0m[ INFO] [1705236058.066498823]: , complexity=0.908422[0m
+[0m[ INFO] [1705236058.093374510]: id=3[0m
+[0m[ INFO] [1705236058.093396889]: , complexity=0.751065[0m
+[0m[ INFO] [1705236058.239200235]: id=1[0m
+[0m[ INFO] [1705236058.239224320]: , complexity=0.908422[0m
+[0m[ INFO] [1705236058.265377399]: id=2[0m
+[0m[ INFO] [1705236058.265408050]: , complexity=0.908422[0m
+[0m[ INFO] [1705236058.292934466]: [FSM]: Drone 4 from INIT to WAIT_TRIGGER[0m
+[0m[ INFO] [1705236058.297102267]: [FSM]: Drone 4 state: WAIT_TRIGGER[0m
+[0m[ INFO] [1705236058.442808223]: id=1[0m
+[0m[ INFO] [1705236058.442832789]: , complexity=0.908422[0m
+[0m[ INFO] [1705236058.467352701]: id=2[0m
+[0m[ INFO] [1705236058.467378027]: , complexity=0.908422[0m
+[0m[ INFO] [1705236058.639451330]: id=1[0m
+[0m[ INFO] [1705236058.639490040]: , complexity=0.908422[0m
+[0m[ INFO] [1705236058.664098730]: id=2[0m
+[0m[ INFO] [1705236058.664130787]: , complexity=0.908422[0m
+Frontier cost mat size: 5
+[0m[ INFO] [1705236058.778740348]: Drone 4: frontier t: 0.006712, viewpoint t: 0.004429, mat: 0.000176[0m
+[0m[ INFO] [1705236058.778768129]: Total t: 0.011379[0m
+[0m[ INFO] [1705236058.778779122]: Find grid tour---------------[0m
+[0m[ INFO] [1705236058.843089881]: id=1[0m
+[0m[ INFO] [1705236058.843118238]: , complexity=0.908422[0m
+[0m[ INFO] [1705236058.868016596]: id=2[0m
+[0m[ INFO] [1705236058.868048960]: , complexity=0.908422[0m
+[0m[ INFO] [1705236059.040999657]: id=1[0m
+[0m[ INFO] [1705236059.041025890]: , complexity=0.908422[0m
+[0m[ INFO] [1705236059.065494446]: id=2[0m
+[0m[ INFO] [1705236059.065529821]: , complexity=0.908422[0m
+[0m[ INFO] [1705236059.250447888]: id=1[0m
+[0m[ INFO] [1705236059.250471749]: , complexity=0.908422[0m
+[0m[ INFO] [1705236059.267386937]: id=2[0m
+[0m[ INFO] [1705236059.267413121]: , complexity=0.908422[0m
+Frontier cost mat size: 5
+[0m[ INFO] [1705236059.268309957]: Drone 4: frontier t: 0.000835, viewpoint t: 0.000031, mat: 0.000016[0m
+[0m[ INFO] [1705236059.268317586]: Total t: 0.000895[0m
+[0m[ INFO] [1705236059.268323051]: Find grid tour---------------[0m
+Allocated grid: 2, 3, 40, 32, 33, 32, 40, 33, 41, 
+Grid tour: 40, 40, 41, 33, 33, 32, 32, 2, 3, 
+Triggered!
+Frontier cost mat size: 5
+[0m[ INFO] [1705236059.294734598]: Drone 4: frontier t: 0.001692, viewpoint t: 0.000052, mat: 0.000018[0m
+[0m[ INFO] [1705236059.294756700]: Total t: 0.001806[0m
+[0m[ INFO] [1705236059.294765481]: [triggerCallback]: Drone 4 from WAIT_TRIGGER to PLAN_TRAJ[0m
+[0m[ INFO] [1705236059.294791042]: Find grid tour---------------[0m
+Allocated grid: 2, 3, 40, 40, 41, 33, 33, 32, 32, 
+Grid tour: 40, 40, 41, 33, 33, 32, 32, 2, 3, 
+[0m[ INFO] [1705236059.299805943]: Find frontier tour, 1 involved------------[0m
+[0m[ INFO] [1705236059.300474735]: Grid tour t: 0.004982, frontier tour t: 0.000681.[0m
+Local refine graph size: 1, 9, 1, 
+Next view:  0.807946 -0.563796  0.933905, 1.6771
+Traj opt iter num: 350
+[0m[ INFO] [1705236059.304865692]: Traj: 0.004063, yaw: 0.000158[0m
+[0m[ INFO] [1705236059.304881409]: Total time: 0.010087[0m
+[0m[ INFO] [1705236059.304896399]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236059.305062755]: [FSM]: Drone 4 state: PUB_TRAJ[0m
+[0m[ INFO] [1705236059.416685648]: id=3[0m
+[0m[ INFO] [1705236059.416706051]: , complexity=0.751065[0m
+[0m[ INFO] [1705236059.442502691]: id=1[0m
+[0m[ INFO] [1705236059.442559338]: , complexity=0.908422[0m
+[0m[ INFO] [1705236059.465685142]: id=2[0m
+[0m[ INFO] [1705236059.465714414]: , complexity=0.908422[0m
+[0m[ INFO] [1705236059.494897896]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236059.520256655]: id=3[0m
+[0m[ INFO] [1705236059.520326534]: , complexity=0.751065[0m
+[0m[ INFO] [1705236059.650615305]: id=1[0m
+[0m[ INFO] [1705236059.650638451]: , complexity=0.908422[0m
+[0m[ INFO] [1705236059.664945965]: id=2[0m
+[0m[ INFO] [1705236059.664980956]: , complexity=0.908422[0m
+Frontier cost mat size: 5
+[0m[ INFO] [1705236059.702103495]: Drone 4: frontier t: 0.003395, viewpoint t: 0.003187, mat: 0.000077[0m
+[0m[ INFO] [1705236059.702115503]: Total t: 0.006682[0m
+[0m[ INFO] [1705236059.702142897]: [FSM]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236059.702230252]: Find grid tour---------------[0m
+Allocated grid: 4, 8, 40, 33, 41, 49, 57, 48, 56, 55, 54, 46, 38, 30, 32, 40, 33, 41, 
+Grid tour: 40, 40, 32, 33, 33, 41, 41, 48, 49, 57, 56, 55, 54, 46, 38, 30, 4, 8, 
+[0m[ INFO] [1705236059.720498366]: Find frontier tour, 1 involved------------[0m
+[0m[ INFO] [1705236059.720895211]: Grid tour t: 0.018252, frontier tour t: 0.000408.[0m
+Local refine graph size: 1, 8, 1, 
+Next view:  0.745555 -0.589061  0.916093, 1.68692
+Traj opt iter num: 230
+[0m[ INFO] [1705236059.722832666]: Traj: 0.001618, yaw: 0.000089[0m
+[0m[ INFO] [1705236059.722840360]: Total time: 0.020611[0m
+[0m[ INFO] [1705236059.722851827]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236059.843015066]: id=1[0m
+[0m[ INFO] [1705236059.843039250]: , complexity=0.908422[0m
+[0m[ INFO] [1705236059.866158586]: id=2[0m
+[0m[ INFO] [1705236059.866178728]: , complexity=0.908422[0m
+[0m[ INFO] [1705236059.892868445]: id=3[0m
+[0m[ INFO] [1705236059.892887371]: , complexity=0.751065[0m
+[0m[ INFO] [1705236059.902999051]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236060.052324415]: id=1[0m
+[0m[ INFO] [1705236060.052354639]: , complexity=0.908422[0m
+[0m[ INFO] [1705236060.068817388]: id=2[0m
+[0m[ INFO] [1705236060.068847846]: , complexity=0.908422[0m
+Frontier cost mat size: 5
+[0m[ INFO] [1705236060.115882956]: Drone 4: frontier t: 0.005072, viewpoint t: 0.003226, mat: 0.000098[0m
+[0m[ INFO] [1705236060.115902333]: Total t: 0.008432[0m
+[0m[ INFO] [1705236060.115955933]: [FSM]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236060.116124947]: Find grid tour---------------[0m
+Allocated grid: 4, 8, 40, 48, 41, 49, 57, 56, 55, 54, 46, 38, 30, 
+Grid tour: 40, 41, 49, 48, 57, 56, 55, 54, 46, 38, 30, 4, 8, 
+[0m[ INFO] [1705236060.122925547]: Find frontier tour, 1 involved------------[0m
+[0m[ INFO] [1705236060.123474906]: Grid tour t: 0.006796, frontier tour t: 0.000558.[0m
+Local refine graph size: 1, 8, 1, 
+Next view:  0.739663 -0.548503   0.93509, 1.8022
+Traj opt iter num: 392
+[0m[ INFO] [1705236060.126450886]: Traj: 0.002713, yaw: 0.000068[0m
+[0m[ INFO] [1705236060.126462260]: Total time: 0.010347[0m
+[0m[ INFO] [1705236060.126470571]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236060.134696021]: id=3[0m
+[0m[ INFO] [1705236060.134726351]: , complexity=0.751065[0m
+[0m[ INFO] [1705236060.243300441]: id=1[0m
+[0m[ INFO] [1705236060.243321921]: , complexity=0.751065[0m
+[0m[ INFO] [1705236060.265027857]: id=2[0m
+[0m[ INFO] [1705236060.265055487]: , complexity=0.751065[0m
+[0m[ INFO] [1705236060.306046687]: [FSM]: Drone 4 state: PUB_TRAJ[0m
+[0m[ INFO] [1705236060.327028246]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236060.443434613]: id=1[0m
+[0m[ INFO] [1705236060.443462258]: , complexity=0.323324[0m
+[0m[ INFO] [1705236060.464739184]: id=2[0m
+[0m[ INFO] [1705236060.464782331]: , complexity=0.751065[0m
+Frontier cost mat size: 7
+[0m[ INFO] [1705236060.536269671]: Drone 4: frontier t: 0.006574, viewpoint t: 0.003271, mat: 0.000311[0m
+[0m[ INFO] [1705236060.536285186]: Total t: 0.010189[0m
+[0m[ INFO] [1705236060.536319448]: [FSM]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236060.545838324]: Find grid tour---------------[0m
+Allocated grid: 4, 8, 40, 41, 49, 48, 57, 56, 55, 54, 46, 38, 30, 
+Grid tour: 40, 48, 41, 49, 57, 56, 55, 54, 46, 38, 30, 4, 8, 
+[0m[ INFO] [1705236060.551918167]: Find frontier tour, 2 involved------------[0m
+[0m[ INFO] [1705236060.552558141]: Grid tour t: 0.006089, frontier tour t: 0.000640.[0m
+Local refine graph size: 1, 8, 1, 
+[0m[ INFO] [1705236060.552891436]: Local refine time: 0.000314[0m
+Next view: 0.616472 -1.27828 0.919679, 1.87131
+Traj opt iter num: 399
+[0m[ INFO] [1705236060.555857573]: Traj: 0.002841, yaw: 0.000095[0m
+[0m[ INFO] [1705236060.555876269]: Total time: 0.010057[0m
+[0m[ INFO] [1705236060.555886585]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236060.643448986]: id=1[0m
+[0m[ INFO] [1705236060.643472003]: , complexity=0.751065[0m
+[0m[ INFO] [1705236060.667738759]: id=2[0m
+[0m[ INFO] [1705236060.667763895]: , complexity=0.751065[0m
+[0m[ INFO] [1705236060.744615604]: id=3[0m
+[0m[ INFO] [1705236060.744644444]: , complexity=0.908422[0m
+[0m[ INFO] [1705236060.746075593]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236060.846114737]: id=1[0m
+[0m[ INFO] [1705236060.846139421]: , complexity=0.908422[0m
+[0m[ INFO] [1705236060.865281393]: id=2[0m
+[0m[ INFO] [1705236060.865306977]: , complexity=0.751065[0m
+Frontier cost mat size: 9
+[0m[ INFO] [1705236060.963351806]: Drone 4: frontier t: 0.009159, viewpoint t: 0.007136, mat: 0.000820[0m
+[0m[ INFO] [1705236060.963368309]: Total t: 0.017156[0m
+[0m[ INFO] [1705236060.963389736]: [FSM]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236060.963537968]: Find grid tour---------------[0m
+Allocated grid: 4, 8, 48, 41, 49, 57, 56, 55, 54, 46, 38, 30, 
+Grid tour: 48, 49, 41, 57, 56, 55, 54, 46, 38, 30, 4, 8, 
+[0m[ INFO] [1705236060.969824079]: Find frontier tour, 3 involved------------[0m
+[0m[ INFO] [1705236060.970575967]: Grid tour t: 0.006282, frontier tour t: 0.000755.[0m
+Local refine graph size: 1, 14, 13, 1, 
+[0m[ INFO] [1705236060.970977990]: Local refine time: 0.000389[0m
+Next view:    3.2353 -0.762788  0.821277, 1.08998
+Mid goal
+Traj opt iter num: 276
+[0m[ INFO] [1705236060.972903897]: Traj: 0.001808, yaw: 0.000095[0m
+[0m[ INFO] [1705236060.972915524]: Total time: 0.009383[0m
+[0m[ INFO] [1705236060.972927572]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236061.045194389]: id=1[0m
+[0m[ INFO] [1705236061.045213422]: , complexity=0.751065[0m
+[0m[ INFO] [1705236061.065387335]: id=2[0m
+[0m[ INFO] [1705236061.065413060]: , complexity=0.323324[0m
+[0m[ INFO] [1705236061.166174603]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236061.246259968]: id=1[0m
+[0m[ INFO] [1705236061.246310588]: , complexity=0.908422[0m
+[0m[ INFO] [1705236061.264891449]: id=2[0m
+[0m[ INFO] [1705236061.264921930]: , complexity=0.751065[0m
+[0m[ INFO] [1705236061.304169820]: id=3[0m
+[0m[ INFO] [1705236061.304196749]: , complexity=0.751065[0m
+[0m[ INFO] [1705236061.306096714]: [FSM]: Drone 4 state: EXEC_TRAJ[0m
+Frontier cost mat size: 9
+[0m[ INFO] [1705236061.380641350]: Drone 4: frontier t: 0.006578, viewpoint t: 0.006593, mat: 0.001262[0m
+[0m[ INFO] [1705236061.380666440]: Total t: 0.014494[0m
+[0m[ INFO] [1705236061.380711490]: [FSM]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236061.380868380]: Find grid tour---------------[0m
+Allocated grid: 4, 8, 49, 57, 56, 55, 54, 46, 38, 30, 
+Grid tour: 38, 30, 4, 8, 46, 54, 55, 56, 57, 49, 
+[0m[ INFO] [1705236061.388921321]: Find frontier tour, 2 involved------------[0m
+[0m[ INFO] [1705236061.396602791]: Grid tour t: 0.008023, frontier tour t: 0.007688.[0m
+Local refine graph size: 1, 11, 1, 
+[0m[ INFO] [1705236061.396750728]: Local refine time: 0.000125[0m
+Next view: -0.447986  -1.91944  0.739396, -1.46931
+Mid goal
+near end
+Traj opt iter num: 288
+[0m[ INFO] [1705236061.398795947]: Traj: 0.001888, yaw: 0.000129[0m
+[0m[ INFO] [1705236061.398808566]: Total time: 0.017941[0m
+[0m[ INFO] [1705236061.398818868]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236061.448621645]: id=1[0m
+[0m[ INFO] [1705236061.448661411]: , complexity=0.966310[0m
+[0m[ INFO] [1705236061.465389210]: id=2[0m
+[0m[ INFO] [1705236061.465417262]: , complexity=0.323324[0m
+[0m[ INFO] [1705236061.503169340]: id=3[0m
+[0m[ INFO] [1705236061.503188616]: , complexity=0.751065[0m
+[0m[ INFO] [1705236061.588949526]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236061.645752052]: id=1[0m
+[0m[ INFO] [1705236061.645776721]: , complexity=0.908422[0m
+[0m[ INFO] [1705236061.665930970]: id=2[0m
+[0m[ INFO] [1705236061.665957747]: , complexity=0.323324[0m
+Frontier cost mat size: 9
+[0m[ INFO] [1705236061.801742140]: Drone 4: frontier t: 0.006747, viewpoint t: 0.005237, mat: 0.000764[0m
+[0m[ INFO] [1705236061.801758810]: Total t: 0.012784[0m
+[0m[ INFO] [1705236061.801787895]: [FSM]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236061.801882418]: Find grid tour---------------[0m
+Allocated grid: 4, 8, 38, 30, 46, 54, 55, 56, 57, 49, 
+Grid tour: 38, 30, 4, 8, 46, 54, 55, 56, 57, 49, 
+[0m[ INFO] [1705236061.807437549]: Find frontier tour, 2 involved------------[0m
+[0m[ INFO] [1705236061.808017089]: Grid tour t: 0.005549, frontier tour t: 0.000581.[0m
+Local refine graph size: 1, 4, 1, 
+[0m[ INFO] [1705236061.808178723]: Local refine time: 0.000148[0m
+Next view: 0.0875001  -3.23539  0.932792, -1.49533
+Mid goal
+Traj opt iter num: 244
+[0m[ INFO] [1705236061.811689862]: Traj: 0.003373, yaw: 0.000105[0m
+[0m[ INFO] [1705236061.811705534]: Total time: 0.009824[0m
+[0m[ INFO] [1705236061.811717199]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236061.846938596]: id=1[0m
+[0m[ INFO] [1705236061.846962703]: , complexity=0.908422[0m
+[0m[ INFO] [1705236061.868857036]: id=2[0m
+[0m[ INFO] [1705236061.868887584]: , complexity=0.751065[0m
+[0m[ INFO] [1705236062.009046408]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+collision at: 0.324714 -1.80759  0.87974
+[0m[ INFO] [1705236062.034345081]: [safetyCallback]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+Mid goal
+Traj opt iter num: 236
+[0m[ INFO] [1705236062.041146323]: Traj: 0.002056, yaw: 0.000076[0m
+[0m[ INFO] [1705236062.041160868]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236062.045694636]: id=1[0m
+[0m[ INFO] [1705236062.045709805]: , complexity=0.966310[0m
+[0m[ INFO] [1705236062.069438562]: id=2[0m
+[0m[ INFO] [1705236062.069458603]: , complexity=0.751065[0m
+[0m[ INFO] [1705236062.249316552]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236062.333366998]: [FSM]: Drone 4 state: EXEC_TRAJ[0m
+collision at: 0.693449 -1.60177 0.930917
+[0m[ INFO] [1705236062.353106874]: [safetyCallback]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+Mid goal
+Traj opt iter num: 48
+[0m[ INFO] [1705236062.366413688]: Traj: 0.011975, yaw: 0.001088[0m
+[0m[ INFO] [1705236062.366535827]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236062.680982499]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236062.922544195]: id=1[0m
+[0m[ INFO] [1705236062.922687396]: , complexity=0.987606[0m
+collision at: -0.0993169   -2.39163   0.946626
+[0m[ INFO] [1705236062.923389837]: [safetyCallback]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+Mid goal
+nlopt failure
+Traj opt iter num: 146
+[0m[ INFO] [1705236062.932474574]: Traj: 0.008839, yaw: 0.000097[0m
+[0m[ INFO] [1705236062.932490781]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236063.045507085]: id=1[0m
+[0m[ INFO] [1705236063.045526773]: , complexity=0.908422[0m
+[0m[ INFO] [1705236063.114614471]: id=1[0m
+[0m[ INFO] [1705236063.114649476]: , complexity=0.966310[0m
+[0m[ INFO] [1705236063.133666926]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236063.158169828]: id=3[0m
+[0m[ INFO] [1705236063.158198482]: , complexity=0.908422[0m
+collision at: -0.0982702   -2.15718    1.00052
+[0m[ INFO] [1705236063.173822866]: [safetyCallback]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+Mid goal
+nlopt failure
+Traj opt iter num: 120
+[0m[ INFO] [1705236063.182644748]: Traj: 0.001486, yaw: 0.000194[0m
+[0m[ INFO] [1705236063.182674436]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236063.271172072]: id=1[0m
+[0m[ INFO] [1705236063.271217181]: , complexity=0.966310[0m
+[0m[ INFO] [1705236063.281651541]: id=2[0m
+[0m[ INFO] [1705236063.281673082]: , complexity=0.987606[0m
+[0m[ INFO] [1705236063.356952933]: [FSM]: Drone 4 state: PUB_TRAJ[0m
+[0m[ INFO] [1705236063.381710611]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+collision at: -0.0972498   -2.32918    1.03313
+[0m[ INFO] [1705236063.424421480]: [safetyCallback]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+Mid goal
+Traj opt iter num: 63
+[0m[ INFO] [1705236063.440216668]: Traj: 0.007763, yaw: 0.000948[0m
+[0m[ INFO] [1705236063.440385277]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236063.762776864]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+collision at: -0.0979209   -2.41571    1.01459
+[0m[ INFO] [1705236064.007071141]: [safetyCallback]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+Mid goal
+Traj opt iter num: 55
+[0m[ INFO] [1705236064.016276835]: Traj: 0.006387, yaw: 0.002470[0m
+[0m[ INFO] [1705236064.016428526]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236064.126932667]: id=2[0m
+[0m[ INFO] [1705236064.127092453]: , complexity=0.966310[0m
+[0m[ INFO] [1705236064.262758104]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236064.280649362]: id=2[0m
+[0m[ INFO] [1705236064.280685272]: , complexity=0.908422[0m
+[0m[ INFO] [1705236064.365925756]: [FSM]: Drone 4 state: EXEC_TRAJ[0m
+[0m[ INFO] [1705236064.373776786]: id=1[0m
+[0m[ INFO] [1705236064.373804704]: , complexity=0.966310[0m
+Frontier cost mat size: 11
+[0m[ INFO] [1705236064.431719947]: Drone 4: frontier t: 0.014729, viewpoint t: 0.006943, mat: 0.002032[0m
+[0m[ INFO] [1705236064.431738770]: Total t: 0.023746[0m
+[0m[ INFO] [1705236064.431774134]: [FSM]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236064.431804516]: id=2[0m
+[0m[ INFO] [1705236064.431810479]: , complexity=0.908422[0m
+[0m[ INFO] [1705236064.436768051]: Find grid tour---------------[0m
+Allocated grid: 8, 38, 46, 54, 28, 36, 29, 37, 
+Grid tour: 38, 37, 29, 28, 36, 8, 54, 46, 
+[0m[ INFO] [1705236064.446680142]: Find frontier tour, 1 involved------------[0m
+[0m[ INFO] [1705236064.447488408]: Grid tour t: 0.009909, frontier tour t: 0.000812.[0m
+Local refine graph size: 1, 10, 1, 
+Next view: -0.00955947     -3.5915    0.961542, 0.216049
+Mid goal
+Traj opt iter num: 224
+[0m[ INFO] [1705236064.449034588]: Traj: 0.001247, yaw: 0.000094[0m
+[0m[ INFO] [1705236064.449043746]: Total time: 0.012287[0m
+[0m[ INFO] [1705236064.449052651]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236064.532311700]: id=3[0m
+[0m[ INFO] [1705236064.532332330]: , complexity=0.966310[0m
+[0m[ INFO] [1705236064.534724625]: id=2[0m
+[0m[ INFO] [1705236064.534746265]: , complexity=0.987606[0m
+[0m[ INFO] [1705236064.642132486]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236064.663022643]: id=3[0m
+[0m[ INFO] [1705236064.663053520]: , complexity=0.966310[0m
+[0m[ INFO] [1705236064.681225015]: id=1[0m
+[0m[ INFO] [1705236064.681312848]: , complexity=0.966310[0m
+[0m[ INFO] [1705236064.731460236]: id=2[0m
+[0m[ INFO] [1705236064.731477100]: , complexity=0.987606[0m
+Frontier cost mat size: 11
+[0m[ INFO] [1705236064.857880482]: Drone 4: frontier t: 0.008466, viewpoint t: 0.004869, mat: 0.002388[0m
+[0m[ INFO] [1705236064.857900185]: Total t: 0.015771[0m
+[0m[ INFO] [1705236064.857936239]: [FSM]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236064.857968635]: Find grid tour---------------[0m
+Allocated grid: 8, 38, 37, 29, 28, 36, 54, 46, 
+Grid tour: 38, 37, 29, 28, 36, 8, 54, 46, 
+[0m[ INFO] [1705236064.863825734]: Find frontier tour, 1 involved------------[0m
+[0m[ INFO] [1705236064.864836641]: Grid tour t: 0.005839, frontier tour t: 0.001019.[0m
+Local refine graph size: 1, 14, 1, 
+Next view:  0.59569 -5.24023 0.851284, 0.325676
+Mid goal
+Traj opt iter num: 120
+[0m[ INFO] [1705236064.866639006]: Traj: 0.001341, yaw: 0.000147[0m
+[0m[ INFO] [1705236064.866655269]: Total time: 0.008686[0m
+[0m[ INFO] [1705236064.866667632]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236064.868217117]: id=3[0m
+[0m[ INFO] [1705236064.868241052]: , complexity=0.966310[0m
+[0m[ INFO] [1705236064.881196165]: id=1[0m
+[0m[ INFO] [1705236064.881232194]: , complexity=0.987606[0m
+[0m[ INFO] [1705236064.935287671]: id=2[0m
+[0m[ INFO] [1705236064.935322968]: , complexity=0.966310[0m
+[0m[ INFO] [1705236065.061953099]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236065.067648569]: id=3[0m
+[0m[ INFO] [1705236065.067809317]: , complexity=0.987606[0m
+[0m[ INFO] [1705236065.135505511]: id=2[0m
+[0m[ INFO] [1705236065.135547046]: , complexity=0.751065[0m
+Frontier cost mat size: 12
+[0m[ INFO] [1705236065.283842258]: Drone 4: frontier t: 0.010420, viewpoint t: 0.007871, mat: 0.002246[0m
+[0m[ INFO] [1705236065.283862717]: Total t: 0.020584[0m
+[0m[ INFO] [1705236065.283911791]: [FSM]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236065.285945017]: id=3[0m
+[0m[ INFO] [1705236065.285962743]: , complexity=0.987606[0m
+[0m[ INFO] [1705236065.287157500]: Find grid tour---------------[0m
+Allocated grid: 8, 38, 37, 29, 28, 36, 54, 46, 
+Grid tour: 38, 29, 28, 36, 37, 8, 54, 46, 
+[0m[ INFO] [1705236065.295706449]: Find frontier tour, 1 involved------------[0m
+[0m[ INFO] [1705236065.296751077]: Grid tour t: 0.008537, frontier tour t: 0.001056.[0m
+Local refine graph size: 1, 2, 1, 
+Next view: 0.00263872   -3.63521    1.04207, 0.704847
+Traj opt iter num: 188
+[0m[ INFO] [1705236065.300547469]: Traj: 0.003532, yaw: 0.000117[0m
+[0m[ INFO] [1705236065.300576962]: Total time: 0.013429[0m
+[0m[ INFO] [1705236065.300590934]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236065.334654988]: id=2[0m
+[0m[ INFO] [1705236065.334678373]: , complexity=0.751065[0m
+[0m[ INFO] [1705236065.374953303]: [FSM]: Drone 4 state: PUB_TRAJ[0m
+[0m[ INFO] [1705236065.470124922]: id=3[0m
+[0m[ INFO] [1705236065.470156239]: , complexity=0.998323[0m
+[0m[ INFO] [1705236065.502150304]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236065.536302301]: id=2[0m
+[0m[ INFO] [1705236065.536333685]: , complexity=0.751065[0m
+[0m[ INFO] [1705236065.677168423]: id=3[0m
+[0m[ INFO] [1705236065.677195316]: , complexity=0.998323[0m
+Frontier cost mat size: 13
+[0m[ INFO] [1705236065.720910603]: Drone 4: frontier t: 0.006382, viewpoint t: 0.006255, mat: 0.004227[0m
+[0m[ INFO] [1705236065.720930512]: Total t: 0.016908[0m
+[0m[ INFO] [1705236065.720962189]: [FSM]: Drone 4 from EXEC_TRAJ to PLAN_TRAJ[0m
+[0m[ INFO] [1705236065.721036097]: Find grid tour---------------[0m
+Allocated grid: 8, 38, 29, 28, 36, 54, 46, 
+Grid tour: 38, 29, 28, 36, 8, 54, 46, 
+[0m[ INFO] [1705236065.727315234]: Find frontier tour, 1 involved------------[0m
+[0m[ INFO] [1705236065.729147681]: Grid tour t: 0.006257, frontier tour t: 0.001839.[0m
+Local refine graph size: 1, 15, 1, 
+Next view: 0.000353985    -3.63313     1.04347, 0.697245
+Traj opt iter num: 415
+[0m[ INFO] [1705236065.732334744]: Traj: 0.002728, yaw: 0.000149[0m
+[0m[ INFO] [1705236065.732360364]: Total time: 0.011326[0m
+[0m[ INFO] [1705236065.732376667]: [FSM]: Drone 4 from PLAN_TRAJ to PUB_TRAJ[0m
+[0m[ INFO] [1705236065.741564136]: id=2[0m
+[0m[ INFO] [1705236065.741592477]: , complexity=0.908422[0m
+[0m[ INFO] [1705236065.859546284]: id=3[0m
+[0m[ INFO] [1705236065.859579356]: , complexity=0.998323[0m
+[0m[ INFO] [1705236065.899738649]: id=1[0m
+[0m[ INFO] [1705236065.899772448]: , complexity=0.998323[0m
+[0m[ INFO] [1705236065.921149065]: [FSM]: Drone 4 from PUB_TRAJ to EXEC_TRAJ[0m
+[0m[ INFO] [1705236065.935422866]: id=2[0m
+[0m[ INFO] [1705236065.935445203]: , complexity=0.908422[0m
+[0m[ INFO] [1705236066.055570376]: id=3[0m
+[0m[ INFO] [1705236066.055619359]: , complexity=0.966310[0m
+Frontier cost mat size: 12
+des manager

@@ -1,0 +1,11 @@
+[0m[ INFO] [1705235979.944906845]: rviz version 1.14.20[0m
+[0m[ INFO] [1705235979.944927524]: compiled against Qt version 5.12.8[0m
+[0m[ INFO] [1705235979.944931070]: compiled against OGRE version 1.9.0 (Ghadamon)[0m
+[0m[ INFO] [1705235979.952698905]: Forcing OpenGl version 0.[0m
+[0m[ INFO] [1705235980.073365757]: Stereo is NOT SUPPORTED[0m
+[0m[ INFO] [1705235980.073414857]: OpenGL device: llvmpipe (LLVM 12.0.0, 256 bits)[0m
+[0m[ INFO] [1705235980.073425848]: OpenGl version: 3.1 (GLSL 1.4).[0m
+[0m[ INFO] [1705235984.623017052]: Setting goal: Frame:world, Position(2.425, 3.598, 0.000), Orientation(0.000, 0.000, -0.446, 0.895) = Angle: -0.924
+[0m
+[0m[ INFO] [1705235986.942397332]: Setting goal: Frame:world, Position(4.569, -1.496, 0.000), Orientation(0.000, 0.000, -0.246, 0.969) = Angle: -0.496
+[0m

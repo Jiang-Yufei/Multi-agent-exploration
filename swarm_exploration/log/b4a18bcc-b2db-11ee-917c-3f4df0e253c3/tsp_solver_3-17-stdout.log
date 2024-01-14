@@ -1,0 +1,530 @@
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 0/1 
+Cost.min = -100683, Cost.avg = -100683.00, Cost.max = -100683
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100683
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100967, Cost.avg = -100967.00, Cost.max = -100967
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100967
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99965, Cost.avg = -99965.00, Cost.max = -99965
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-99965
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -98261, Cost.avg = -98261.00, Cost.max = -98261
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-98261
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99306, Cost.avg = -99306.00, Cost.max = -99306
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-99306
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99805, Cost.avg = -99805.00, Cost.max = -99805
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-99805
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199388, Cost.avg = -199388.00, Cost.max = -199388
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199388
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100258, Cost.avg = -100258.00, Cost.max = -100258
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100258
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199212, Cost.avg = -199212.00, Cost.max = -199212
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199212
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100176, Cost.avg = -100176.00, Cost.max = -100176
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100176
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199068, Cost.avg = -199068.00, Cost.max = -199068
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199068
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99342, Cost.avg = -99342.00, Cost.max = -99342
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-99342
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199323, Cost.avg = -199323.00, Cost.max = -199323
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199323
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99219, Cost.avg = -99219.00, Cost.max = -99219
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-99219
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199366, Cost.avg = -199366.00, Cost.max = -199366
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199366
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99717, Cost.avg = -99717.00, Cost.max = -99717
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-99717
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99720, Cost.avg = -99720.00, Cost.max = -99720
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-99720
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99730, Cost.avg = -99730.00, Cost.max = -99730
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-99730
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199327, Cost.avg = -199327.00, Cost.max = -199327
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199327
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -98764, Cost.avg = -98764.00, Cost.max = -98764
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-98764
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199403, Cost.avg = -199403.00, Cost.max = -199403
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199403
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99746, Cost.avg = -99746.00, Cost.max = -99746
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-99746
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199521, Cost.avg = -199521.00, Cost.max = -199521
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199521
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -98731, Cost.avg = -98731.00, Cost.max = -98731
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-98731
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99715, Cost.avg = -99715.00, Cost.max = -99715
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-99715
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -98363, Cost.avg = -98363.00, Cost.max = -98363
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-98363
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199188, Cost.avg = -199188.00, Cost.max = -199188
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199188
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99021, Cost.avg = -99021.00, Cost.max = -99021
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.01 sec., Time.avg = 0.01 sec., Time.max = 0.01 sec.
+Best ATSP solution:
+  Cost = 0_-99021
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199087, Cost.avg = -199087.00, Cost.max = -199087
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199087
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100017, Cost.avg = -100017.00, Cost.max = -100017
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100017
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199102, Cost.avg = -199102.00, Cost.max = -199102
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199102
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100638, Cost.avg = -100638.00, Cost.max = -100638
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100638
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199281, Cost.avg = -199281.00, Cost.max = -199281
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199281
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100651, Cost.avg = -100651.00, Cost.max = -100651
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100651
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199194, Cost.avg = -199194.00, Cost.max = -199194
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199194
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100646, Cost.avg = -100646.00, Cost.max = -100646
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100646
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199169, Cost.avg = -199169.00, Cost.max = -199169
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199169
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100713, Cost.avg = -100713.00, Cost.max = -100713
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100713
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199188, Cost.avg = -199188.00, Cost.max = -199188
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199188
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100704, Cost.avg = -100704.00, Cost.max = -100704
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100704
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199268, Cost.avg = -199268.00, Cost.max = -199268
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199268
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99914, Cost.avg = -99914.00, Cost.max = -99914
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-99914
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199243, Cost.avg = -199243.00, Cost.max = -199243
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199243
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100659, Cost.avg = -100659.00, Cost.max = -100659
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100659
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199282, Cost.avg = -199282.00, Cost.max = -199282
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199282
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100696, Cost.avg = -100696.00, Cost.max = -100696
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100696
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199371, Cost.avg = -199371.00, Cost.max = -199371
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199371
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100715, Cost.avg = -100715.00, Cost.max = -100715
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100715
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199483, Cost.avg = -199483.00, Cost.max = -199483
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199483
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -99966, Cost.avg = -99966.00, Cost.max = -99966
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-99966
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199534, Cost.avg = -199534.00, Cost.max = -199534
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199534
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp2_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -100015, Cost.avg = -100015.00, Cost.max = -100015
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-100015
+
+PARAMETER_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.par
+PROBLEM_FILE = /home/jyf/ROS_project/RACER-test/src/RACER-main/swarm_exploration/utils/lkh_mtsp_solver/resource/amtsp_3.atsp
+Successes/Runs = 1/0 
+Cost.min = -199512, Cost.avg = -199512.00, Cost.max = -199512
+Gap.min = -0.0000%, Gap.avg = -0.0000%, Gap.max = -0.0000%
+Trials.min = 20, Trials.avg = 20.0, Trials.max = 20
+Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
+Best ATSP solution:
+  Cost = 0_-199512
+
