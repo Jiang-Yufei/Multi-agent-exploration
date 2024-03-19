@@ -55,6 +55,7 @@ link_directories(${PCL_LIBRARY_DIRS})
 add_library( plan_env 
     src/sdf_map.cpp 
     src/obj_predictor.cpp 
+    src/obj_generator.cpp
     src/edt_environment.cpp 
     src/raycast.cpp
     src/map_ros.cpp
@@ -68,5 +69,7 @@ target_link_libraries( plan_env
 add_executable(obj_generator
     src/obj_generator.cpp 
     )
+add_dependencies(plan_env ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
 target_link_libraries(obj_generator 
     ${catkin_LIBRARIES})

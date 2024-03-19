@@ -60,6 +60,15 @@ include_directories(
   ${PCL_INCLUDE_DIRS}
 )
 
+add_library(exploration_manager
+  src/exploration_node.cpp 
+  src/fast_exploration_fsm.cpp
+  src/fast_exploration_manager.cpp
+  src/local_complexity.cpp
+  )
+target_link_libraries(exploration_manager 
+  ${catkin_LIBRARIES}
+  )
 
 add_executable(exploration_node
   src/exploration_node.cpp 

@@ -10,6 +10,7 @@
 #include <unordered_map>
 // #include "grad_spline/sdf_map.h"
 #include "plan_env/edt_environment.h"
+
 #include <boost/functional/hash.hpp>
 #include <queue>
 #include <path_searching/matrix_hash.h>
