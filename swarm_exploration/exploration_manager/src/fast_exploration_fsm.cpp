@@ -717,10 +717,11 @@ void FastExplorationFSM::droneStateMsgCallback(const exploration_manager::DroneS
 }
 
 void FastExplorationFSM::LocalComplexityCallback(const exploration_manager::DroneLocalComplexity& msg){
-  if (msg.drone_id == getId()) return;
-  auto& state = expl_manager_->ed_->swarm_state_[msg.drone_id - 1];
-  state.complexity_ = msg.local_complexity;
-  // ROS_INFO("id=%d, complexity=%f", msg.drone_id, state.complexity_);
+  //if (msg.drone_id == getId()) return;
+  //auto& state = ;
+  expl_manager_->ed_->swarm_state_[msg.drone_id - 1].complexity_ = msg.local_complexity;
+  //sucess
+  //ROS_ERROR("id=%d, complexity=%f", msg.drone_id, state.complexity_);
 }
 
 

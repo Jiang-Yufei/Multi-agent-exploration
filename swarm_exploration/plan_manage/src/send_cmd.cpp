@@ -110,7 +110,7 @@ int main(int argc, char** argv) {
 
   vector<Eigen::Vector3d> points;
   traj.getSamplePoints(points);
-  displayTrajWithColor(points, 0.05, Eigen::Vector4d(1, 0, 0, 1), 0);
+  displayTrajWithColor(points, 0.5, Eigen::Vector4d(1, 0, 0, 1), 0);
 
   // Send cmd
   double duration = traj.getTotalTime();

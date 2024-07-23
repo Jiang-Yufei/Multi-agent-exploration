@@ -144,6 +144,10 @@ int FastExplorationManager::planExploreMotion(
   // findGlobalTour(pos, vel, yaw, indices);
   findGridAndFrontierPath(pos, vel, yaw, grid_ids, frontier_ids);
 
+  ViewNode::updateComplexity(ed_->swarm_state_[ep_->drone_id_ - 1].complexity_);
+  ROS_ERROR("Drone %d: complexity: %f", ep_->drone_id_, ed_->swarm_state_[ep_->drone_id_ - 1].complexity_);
+
+
   if (grid_ids.empty()) {
 
     return NO_GRID;
@@ -487,7 +491,7 @@ void FastExplorationManager::findGridAndFrontierPath(const Vector3d& cur_pos,
   vector<int> ftr_ids;
   // uniform_grid_->getFrontiersInGrid(ego_ids[0], ftr_ids);
   hgrid_->getFrontiersInGrid(ego_ids, ftr_ids);
-  ROS_INFO("Find frontier tour, %d involved------------", ftr_ids.size());
+  // ROS_INFO("Find frontier tour, %d involved------------", ftr_ids.size());
 
   if (ftr_ids.empty()) {
     frontier_ids = {};
@@ -959,7 +963,8 @@ bool FastExplorationManager::findGlobalTourOfGrid(const vector<Eigen::Vector3d>&
     hgrid_->getCostMatrix(positions, velocities, { {} }, { {} }, grid_ids, mat);
 
   double mat_time = (ros::Time::now() - t1).toSec();
-
+  // 根据complexity修正cost_mat
+  mat = ed_->swarm_state_[ep_->drone_id_ - 1].complexity_ * mat;
   // Find optimal path through ATSP
   t1 = ros::Time::now();
   const int dimension = mat.rows();

@@ -106,6 +106,11 @@ void FastExplorationFSM::droneLocalComplexityCalculate(const sensor_msgs::PointC
 
 double FastExplorationFSM::cal_local_complexity(int cluster_num, int a){
     double complexity = 1 - a * std::exp(-cluster_num);
+    //double complexity = 1; //RACER
+    if(complexity < 0.5){
+        complexity = 0.5;
+    }
+    
     //ROS_INFO("Local complexity: %f", complexity);
 
     return complexity;

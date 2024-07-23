@@ -213,7 +213,7 @@ void visCallback(const ros::TimerEvent& e) {
   // Draw the executed traj (desired state)
   // displayTrajWithColor(traj_cmd_, 0.05, Eigen::Vector4d(1, 0, 0, 1), pub_traj_id_);
   // displayTrajWithColor(traj_cmd_, 0.05, Eigen::Vector4d(0, 1, 0, 1), pub_traj_id_);
-  displayTrajWithColor(traj_cmd_, 0.05,
+  displayTrajWithColor(traj_cmd_, 0.15,
       PlanningVisualization::getColor((drone_id_ - 1) / double(drone_num_)), pub_traj_id_);
 
   // displayTrajWithColor(traj_real_, 0.03, Eigen::Vector4d(0.925, 0.054, 0.964,
